@@ -1,0 +1,474 @@
+/*reset*/
+html{color:#000;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,p,textarea,blockquote{margin:0;padding:0;}table{border-collapse:collapse; border-color:#CCCCCC;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var,optgroup{font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}sup, sub{vertical-align: 2px; font-size: 70%; font-weight: normal; }abbr,acronym{border:0;font-variant:normal;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+body{font-family: Arial, Helvetica, sans-serif;}
+
+
+body
+{
+	margin:0;
+	color:#333;
+	font-size:14px;
+	line-height:18px;
+	background:#fff;
+}
+
+.rank-label
+{
+	background:url('/images/ico-move.png') no-repeat 14px 12px;
+	padding:10px 10px 10px 38px;
+	border:1px #ccc dotted;
+	border-radius:12px;
+	-moz-border-radius:12px;
+	-webkit-border-radius:12px;
+	display:block;
+	-webkit-transition:all .25s ease-in-out 0;
+}
+
+.rank-label:hover
+{
+	cursor:move;
+	background-color:#EFEFEF;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.rank-label:active
+{
+	box-shadow:0 0 10px #2b81c1;
+}
+
+.PDF_pageOuter
+{
+	margin:0;
+	padding:30px 30px 90px;
+}
+
+.PDF_pageInner
+{
+	margin:auto;
+	width:960px;
+	background:#fff;
+	position:relative;
+	background-color:#f9f9f9;
+}
+
+.PDF_question,.PDF_questionErr
+{
+}
+
+.PDF_questionErr
+{
+}
+
+.qContent
+{
+	font-size:14px;
+	line-height:20px;
+}
+
+.qNumber
+{
+	display:none;
+	float:right;
+	font-size:12px;
+	line-height:12px;
+	background-color:#eee;
+	padding:6px;
+	margin-left:20px;
+}
+
+.qText
+{
+	display:none;
+	font-size:19px;
+	line-height:26px;
+}
+
+.qNote
+{
+	display:none;
+	padding:5px 0 0;
+	font-size:12px;
+}
+
+.PDF_mand /* Mandatory span */
+{
+	color:#D00;
+}
+
+.PDF_questionDivide
+{
+	display:none;
+	border-top:1px solid #ccc;
+	margin-top:30px;
+	height:25px;
+}
+
+.sBut
+{
+	background-image:url('/S_But.gif');
+	width:154px;
+	height:33px;
+	text-align:center;
+}
+
+.sBut P
+{
+	padding-top:6px;
+	margin:0;
+}
+
+.sBut A
+{
+	font-size:18px;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+
+/* ---------------------- all Questions ---------------------------------- */
+.PDF_err,.PDF_errMain
+{
+	height:30px;
+	margin:10px 0 0;
+	font:16px/30px arial;
+	color:#fff;
+	padding:0;
+	text-align:center;
+	background-color:#ec7070;
+}
+
+.PDF_errMain
+{
+	display:none;
+	background:#FEE url('/images/surveys/error.png') no-repeat 20px center;
+}
+
+.PDF_noteMain
+{
+	font-size:12px;
+	color:#333;
+	padding:4px 4px 4px 48px;
+	background:#FDFFD9 url('/images/surveys/note.gif') no-repeat 20px center;
+}
+
+.PDF_QT100,.PDF_QT200,.PDF_QT400,.PDF_QT800,.PDF_QT900,.PDF_QT1000,.PDF_QT1200,.PDF_QT1400,.PDF_QT1500
+{
+	margin:20px 0 0;
+}
+
+/* ---------------------- QT 400 ---------------------------------- */
+.categoria_container{
+	display:none;
+}
+
+.lista_categorias
+{
+	margin:0 auto;
+	padding:13px 0;
+	overflow:auto;
+	width:262px;
+}
+
+
+
+
+
+
+.lista_categorias_numero_primeiro
+{
+	margin:0;
+}
+
+.lista_categorias_numero_atual
+{
+	background-image:none;
+	background-color:#434343;
+	color:#fff;
+}
+
+.img_titulo
+{
+	margin-top:28px;
+	text-align:center;
+}
+
+.img_titulo img
+{
+}
+
+.PDF_QT400 UL
+{
+	list-style:none;
+	padding:0;
+	margin:0 0 0 25px;
+}
+
+.PDF_QT400 li
+{
+	cursor:hand;
+	margin:0 5px 23px;
+	float:left;
+	width:174px;
+	text-align:center;
+	position:relative;
+}
+
+/*height div img e bg-txt*/
+.PDF_QT400 LI,.PDF_QT400 LI DIV
+{
+	height:218px;
+}
+
+.PDF_QT400 INPUT
+{
+	margin:0 10px 0 0;
+}
+
+.PDF_QT400 .concorrente-escolhido INPUT
+{
+}
+
+.PDF_QT400 SELECT
+{
+	font-size:12px;
+	padding:2px;
+	min-width:200px;
+}
+
+.PDF_QT400 SELECT[multiple="true"]
+{
+	min-height:100px;
+}
+
+.PDF_QT400 LABEL
+{
+	font-size:13px;
+	padding:0;
+	width:174px;
+	display:block;
+}
+
+.PDF_QT400 LI > LABEL
+{
+	cursor:pointer;
+	width:174px;
+	padding:160px 0 0;
+	display:block;
+	z-index:10;
+	position:absolute;
+	top:0;
+	left:0;
+	font:bold 14px arial;
+	text-transform:uppercase;
+}
+
+.PDF_QT400 .concorrente-escolhido INPUT + LABEL
+{
+	color:#d3101d;
+}
+
+.PDF_QT400 LI DIV
+{
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.PDF_QT400 LI DIV P
+{
+	margin:0;
+}
+
+.PDF_QT400 .other
+{
+	font-size:12px;
+	padding:1px;
+	width:300px;
+}
+
+
+
+/*-----------System Styles --------------------*/
+.cf
+{
+	margin:0;
+	padding:0;
+	clear:both;
+}
+
+/*-----------Start Page--------------------*/
+.PDF_startPage
+{
+}
+
+.PDF_startPageMsg
+{
+}
+
+.PDF_question .button
+{
+	width:522px;
+	position:absolute;
+	top:15px;
+	left:218px;
+}
+
+.button
+{
+	vertical-align:top;
+}
+
+.button input,.button a.previous-page
+{
+	color:transparent;
+	margin:0;
+	border:none;
+	cursor:pointer;
+	background-image:url('http://mdemulher.abril.com.br/v2010/css/imagens/sprite-premio-contigo-16.png');
+	background-repeat:no-repeat;
+	display:block;
+	width:34px;
+	height:26px;
+	background-position:-172px -5px;
+	float:right;
+}
+
+.button a.previous-page
+{
+	width:34px;
+	height:26px;
+	background-position:-84px -5px;
+	float:left;
+}
+
+.button input::-moz-focus-inner
+{
+	padding:0;
+	border:none;
+}
+
+.button input::-moz-focus-inner
+{
+	padding:0;
+	border:none;
+}
+
+.PDF_progress
+{
+	margin:5px auto;
+	text-align:right;
+	text-transform:uppercase;
+	font-size:10px;
+	padding-right:10px;
+	color:#666;
+}
+
+.PDF_progress:last-of-type
+{
+	padding-right:32px;
+}
+
+
+/**   **/
+.aviso_container{display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:15;background-image:url("/assets/img/css/transparencia-botao-pop-up.png");background-repeat:repeat;}
+.aviso_box{width:320px;height:120px;margin:0 0 0 -160px;position:absolute;top:11%;left:50%;z-index:10;}
+.fecha_box_x{width:25px;height:26px;position:absolute;top:0;right:0;cursor:pointer;z-index:-1;}
+.fecha_box_ok{width:100%;height:41px;position:absolute;bottom:3px;left:0;cursor:pointer;z-index:15;}
+
+.aviso_box img.aviso_topo{width:100%;position:absolute;top:0;left:0;cursor:pointer;z-index:5;}
+.aviso_box img.ok_entendi_background{width:100%;position:absolute;bottom:3px;left:0;cursor:pointer;z-index:5;}
+
+.aviso_texto{position:absolute;top:0;left:0;padding:16px;font-family: 'Roboto Condensed',sans-serif;font-weight: 300;font-size: 0.9em;line-height: 1.2em;text-align: center;color: #1a1a1a;z-index:10;}
+.aviso_texto strong{font-weight: 700}
+.aviso_ok_entendi{text-transform: uppercase;font-family: 'Roboto Condensed',sans-serif;font-size: 1.5em;font-weight: 300;line-height: 1.5em;text-align: center;color: #fff;z-index:10;position: absolute;bottom: 3px;width: 100%;margin-bottom: 4px;}
+
+.topo_pagina_premio{margin-top:20px;position:relative;width:100%;}
+.topo_pagina_premio img{width:100%;}
+
+.topo_premio_contigo{width:100%;max-width:952px;height:194px;background-image:url("http://mdemulher.abril.com.br/imagem/extra/etc/topo_pcontigo.jpg");background-repeat:no-repeat;}
+.topo_premio_contigo .redes-sociais{float:left;margin:63px 0 0 775px;width:auto;}
+.topo_premio_contigo .redes-sociais .right .media{float:none;margin:0 0 9px;}
+
+.topo_pcontigo{position:relative;}
+
+.lista_categorias_numero{margin:0 0 0 20px;float:left;font:bold 16px/26px arial;text-align:center;cursor: pointer;}
+.lista_categorias_numero.primeiro{margin:0;}
+.lista_categorias_numero.ativo{color:#fff;}
+.lista_categorias_numero.votar{color:#fff;}
+.seta_ativa_direita{float:left;margin:0 0 0 28px;cursor:pointer;}
+.seta_ativa_esquerda{float:left;margin:0 28px 0 0;cursor:pointer;}
+.seta_cinza_esquerda{float:left;margin:0 28px 0 0;}
+.seta_cinza_direita{float:left;margin:0 0 0 28px;}
+
+.sprite-menu
+{ display: inline-block; background: url('/assets/img/css/sprite-menu.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.menu1.sprite-menu { background-position: -0px -0px; width: 30px; height: 30px; }
+.menu1.ativo.sprite-menu { background-position: -0px -30px; width: 30px; height: 30px; }
+.menu2.sprite-menu { background-position: -0px -60px; width: 30px; height: 30px; }
+.menu2.ativo.sprite-menu { background-position: -0px -90px; width: 30px; height: 30px; }
+.menu3.sprite-menu { background-position: -0px -120px; width: 30px; height: 30px; }
+.menu3.ativo.sprite-menu { background-position: -0px -150px; width: 30px; height: 30px; }
+.menuvotar.sprite-menu{ background-position: -0px -210px; width: 30px; height: 30px; }
+.seta_ativa_direita.sprite-menu { background-position: -0px -240px; width: 13px; height: 30px; }
+.seta_cinza_direita.sprite-menu { background-position: -13px -240px; width: 13px; height: 30px; }
+.seta_ativa_esquerda.sprite-menu { background-position: -0px -270px; width: 13px; height: 30px; }
+.seta_cinza_esquerda.sprite-menu { background-position: -13px -270px; width: 13px; height: 30px; }
+
+
+div.nav{background-color:transparent;float:left;height:80px;width:100%;position:absolute;top:0;left:0;}
+div.categoria_container{background-color:#fff;display:none;float:left;width:100%;background-color:#f6f6f6;}
+div.categoria_container img.img_titulo{display:block;margin:40px auto 25px;width:68%;}
+div.categoria_container h2.titulo_categoria{text-transform:uppercase;font-family:'Roboto Condensed',sans-serif;font-size:1.5em;font-weight:300;line-height:1.5em;text-align:center;color:#1a1a1a;margin:60px 0 20px;}
+div.categoria_container ul{display:block;float:left;padding:0;width:95%;margin:0 2.5%;}
+div.categoria_container ul li{cursor:pointer;font-family:Arial,sans-serif;font-size:16px;margin:0 0 20px;float:left;width:50%;position:relative;}
+div.categoria_container ul li .check_selecionado{display:none;opacity:0;position:absolute;top:0;left:0;width:100%;height:100%;z-index:20;}
+div.categoria_container ul li.ativo .check_selecionado{}
+div.categoria_container ul li img{display:block;width:35%;margin:10px 0 0 1.5%;float:left;position:relative;z-index:10;}
+div.categoria_container ul li .texto-container{width:60%;height:100%;padding:0 1.5% 0 2%;position:absolute;top:0;right:0;z-index:10;}
+div.categoria_container ul li .texto-container .texto-interno{display:table;height:100%;}
+div.categoria_container ul li .texto-container .texto-center{vertical-align:middle;display:table-cell;}
+div.categoria_container ul li h3{display:block;float:left;clear:both;margin:0;font-family:'Roboto Condensed',sans-serif;font-weight:700;font-size:0.9em;line-height:1.2em;color:#1a1a1a;text-transform: uppercase;}
+div.categoria_container ul li.ativo h3{color:#1a1a1a;}
+div.categoria_container ul li p{display:block;float:left;clear:both;font-family:'Roboto Condensed',sans-serif;font-weight:300;font-size:0.9em;line-height:1.2em;color:#6f6f6f;}
+div.categoria_container ul li.ativo p{color:#6f6f6f;}
+div.categoria_container ul li .texto-background{width:79%;position:absolute;right:0;top:10px;margin-top:3%;z-index:5;}
+div.categoria_container ul li .texto-background img{width:100%;margin:0;}
+div.categoria_container.ativo{display:block;}
+.break{clear:both;}
+
+
+/*   add ao layout dos vencedores       */
+
+.imagem_texto_container{overflow: auto; position: relative;}
+div.categoria_container ul li {width:100%;}
+.categoria_container li.coluna_esquerda {margin: 0 2% 15px 0;}
+.categoria_container li.coluna_direita {margin: 0 0 15px;}
+#categoria-vencedora{width:100%}  
+
+/*   add ao layout dos vencedores       */
+
+.erro_nao_votou{background-color:#EC7070;clear:both;color:#FFFFFF;font:13px/18px arial;margin:10px 0 0;padding:6px 8px;text-align:center;}
+.botao_votar{cursor:pointer;background-image:url('/assets/img/css/botao-votar.png');background-repeat:no-repeat;display:block;width:221px;height:73px;background-position:0 0;clear:both;margin:24px auto 0;border:0 none;text-indent:-999px;}
+
+#final_votacao .imagem_final{display:block;margin: 0 auto;}
+#final_votacao .imagem_gif{margin:40px auto 30px;}
+#final_votacao .imagem_obrigado{padding:0 0 15px;margin:0 auto 15px;width:100%;max-width:500px;}
+#final_votacao .imagem_aguardar{padding:0 0 80px;}
+#final_votacao .obrigado-votar{font-family:'Roboto Condensed',sans-serif;font-size:1.5em;font-weight:700;line-height:1.5em;color:#1a1a1a;margin-bottom:15px;text-transform:uppercase;text-align:center;}
+#final_votacao .obrigado-vencedores{font-family:'Roboto Condensed',sans-serif;font-size:1.2em;font-weight:300;line-height:1.2em;color:#1a1a1a;margin-bottom:15px;text-align:center;}
+
+p#aviso{display:block;font-family:Arial,sans-serif;font-size:0.8em;font-weight:bold;line-height:1em;margin:91px auto 20px;width:95%;max-width:600px}
+
+/*captcha*/
+#captchaVotos{max-width:444px;margin:0 auto;text-align:center;width:100%;}
+.recaptcha_table{width:100%;}
+.recaptcha_image_cell{width:100%;}
+#recaptcha_image{max-width:300px;width:100%!important;}
+#recaptcha_challenge_image{width:100%;}
+#recaptcha_area td{padding-left:1%!important;padding-right:1%!important;}
+#recaptcha_logo{width:60px;height:31px;}
+.recaptcha_input_area{max-width:300px;width:100%;}
+#recaptcha_response_field{width:100%!important;}
+
+#abrAD_125x76_1{background:url('http://mdemulher.abril.com.br/imagem/extra/premio-contigo/topo-mobile.png') 0 0 no-repeat;max-width:175px;max-height:76px;position:absolute;top:10px;left:10px;width:175px;}

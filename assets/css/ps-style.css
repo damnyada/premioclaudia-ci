@@ -1,0 +1,138 @@
+/*fonts*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300,700);
+
+/*import*/
+@font-face {
+  font-family: 'whitney_htfbook_condensed';
+  src: url('/assets/css/fonts/whitneyhtf-bookcondensed-webfont.eot');
+  src: url('/assets/css/fonts/whitneyhtf-bookcondensed-webfont.eot?#iefix') format('embedded-opentype'), url('/assets/css/fonts/whitneyhtf-bookcondensed-webfont.woff') format('woff'), url('/assets/css/fonts/whitneyhtf-bookcondensed-webfont.ttf') format('truetype'), url('/assets/css/fonts/whitneyhtf-bookcondensed-webfont.svg#whitney_htfbook_condensed') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*reset*/
+html{color:#000;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,p,textarea,blockquote{margin:0;padding:0;}table{border-collapse:collapse; border-color:#CCCCCC;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,th,var,optgroup{font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}sup, sub{vertical-align:2px; font-size:70%; font-weight:normal; }abbr,acronym{border:0;font-variant:normal;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:#333;font-size:14px;line-height:18px;background:#fff;}
+
+/** custom **/
+.aviso_container{width:100%;height:100%;position:fixed;top:0;left:0;z-index:15;background-image:url("/assets/img/css/transparencia-botao-pop-up.png");background-repeat:repeat;display:none;}
+.aviso_box{width:456px;height:150px;margin:-83px 0 0 -228px;position:absolute;top:20%;left:50%;background:url("/assets/img/css/fundo-1-botao-pop-up.png");background-repeat: no-repeat;}
+.aviso_box img{width:456px;height:165px;}
+.fecha_box_x{width:25px;height:26px;position:absolute;top:0;right:0;cursor:pointer;}
+.fecha_box_ok{width:100%;height:55px;position:absolute;bottom:3px;left:0;cursor:pointer;}
+
+.aviso_texto{padding:16px 78px;font-family: 'Roboto Condensed',sans-serif;font-size: 20px;font-weight: 300;line-height: 20px;color: #1a1a1a;text-align: center;}
+.aviso_texto strong{font-weight: 700;}
+.aviso_ok_entendi{text-transform: uppercase;font-family: 'Roboto Condensed',sans-serif;color:#fff;font-size: 40px;font-weight: 300;line-height: 57px;text-align: center;height:57px;background:url("/assets/img/css/fundo-2-botao-pop-up.png");background-repeat: no-repeat;}
+
+
+.lista_categorias{margin:10px 0 0 376px;width:264px;}
+.lista_categorias_numero{margin:0 0 0 8px;float:left;display:block;font:bold 16px/26px arial;text-align:center;cursor:pointer;}
+.lista_categorias_numero.primeiro{margin:0;}
+.lista_categorias_numero.ativo{background-image:url('/assets/img/css/sprite-menu.png');}
+.seta_ativa_direita{float:left;margin:0 0 0 15px;cursor:pointer;}
+.seta_ativa_esquerda{float:left;margin:0 13px 0 0;cursor:pointer;}
+.seta_cinza_esquerda{float:left;margin:0 13px 0 0;}
+.seta_cinza_direita{float:left;margin:0 0 0 15px;} 
+
+.sprite-menu
+{ display: inline-block; background: url('/assets/img/css/sprite-menu.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.menu1.sprite-menu { background-position: -0px -0px; width: 30px; height: 30px; }
+.menu1.ativo.sprite-menu { background-position: -0px -30px; width: 30px; height: 30px; }
+.menu2.sprite-menu { background-position: -0px -60px; width: 30px; height: 30px; }
+.menu2.ativo.sprite-menu { background-position: -0px -90px; width: 30px; height: 30px; }
+.menu3.sprite-menu { background-position: -0px -120px; width: 30px; height: 30px; }
+.menu3.ativo.sprite-menu { background-position: -0px -150px; width: 30px; height: 30px; }
+/*.voto-laranja.sprite-menu { background-position: -0px -180px; width: 30px; height: 30px; }
+.voto-selecionado.sprite-menu { background-position: -0px -210px; width: 30px; height: 30px; } */
+.seta_ativa_direita.sprite-menu { background-position: -0px -240px; width: 13px; height: 30px; }
+.seta_cinza_direita.sprite-menu { background-position: -13px -240px; width: 13px; height: 30px; }
+.seta_ativa_esquerda.sprite-menu { background-position: -0px -270px; width: 13px; height: 30px; }
+.seta_cinza_esquerda.sprite-menu { background-position: -13px -270px; width: 13px; height: 30px; }
+
+div.jurados {width:616px; margin:0 0 30px;}
+div.jurados img {float:left;}
+div.jurados p.titulo_jurados {display:block;float:left;font:24px bold ;font-family:'Arial';margin:0 0 14px 16px;}
+div.jurados p.descricao_jurados{clear:both;font:16px;}
+div.categoria_container{background-color:#fff;float:left;width:auto;height:auto;clear:both;margin:0 0 18px;}
+div.categoria_container img.img_titulo{display:block;margin:0 auto 30px;}
+div.categoria_container img.img_titulo.sem_margin{margin:0 auto;}
+div.categoria_container div.titulo_categoria_completo {cursor:pointer;border-bottom:1px solid #c3c5c5;height:43px;margin:0;width:620px;}
+div.categoria_container div.titulo_categoria_completo img.seta_categoria {display:block;float:left;}
+
+div.categoria_container div.titulo_categoria_completo .btn-abre-jurados {
+  background-image: url('/assets/img/css/icon-abre.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  width: 22px;
+  height: 43px;
+  float: left;
+}
+div.categoria_container div.titulo_categoria_completo.ativo .btn-abre-jurados {
+  background-image: url('/assets/img/css/icon-abre.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  width: 22px;
+  height: 43px;
+  float: left;
+}
+div.categoria_container div.titulo_categoria_completo .btn-abre-jurados.cor-1 {
+  background-color: #2d7b9f;
+}
+div.categoria_container div.titulo_categoria_completo .btn-abre-jurados.cor-2 {
+  background-color: #246380;
+}
+div.categoria_container div.titulo_categoria_completo .btn-abre-jurados.cor-3 {
+  background-color: #1a485b;
+}
+div.categoria_container div.titulo_categoria_completo .btn-abre-jurados.cor-4 {
+  background-color: #133343;
+}
+
+div.categoria_container div.titulo_categoria_completo p.titulo_categoria{font-family:'whitney_htfbook_condensed','Arial',sans-serif;font-size:20px;color:#163b4b;margin:12px 0 0 22px;font-weight:lighter;display:block;float:left;}
+div.categoria_container ul{display:none;float:left;padding:0;}
+div.categoria_container ul li:first-child{border:none;}
+div.categoria_container ul li{margin:0 0 25px 15px;float:left;width:590px;position:relative;padding-top:25px;border-top:1px solid #c4c4c4}
+div.categoria_container ul li .check_selecionado{display:none;opacity:0;position:absolute;top:0;left:0;background-image:url('/assets/img/css/confirmacao-voto.png');background-repeat:no-repeat;width:184px;height:185px;background-position:center center;}
+div.categoria_container ul li.ativo .check_selecionado{}
+div.categoria_container ul li .container_foto_votar{float:left;width:100%;}
+div.categoria_container ul li img{display:block;height:377px;margin:0;width:575px;float:left;margin:0px 0px 10px;}
+div.categoria_container ul li .texto_candidato_container{width:100%;float:right;margin:0 0 19px 0;padding:0;}
+div.categoria_container ul li .texto_candidato{}
+div.categoria_container ul li h3{display:block;float:left;text-transform:uppercase;font-weight:bold;margin:0 0 3px;width:174px;font-family:'Roboto Condensed',sans-serif;font-size:20px;font-weight:lighter;line-height:20px;color:#1a1a1a;}
+div.categoria_container ul li.ativo h3{color:#d3101d;}
+div.categoria_container ul li p{display:block;float:left;height:auto;font-family:'Roboto Condensed',sans-serif;font-size:14px;font-weight:lighter;color:#000;margin:0;}
+div.categoria_container ul li p.legenda{display:block;float:left;height:auto;font-family:'Roboto Condensed',sans-serif;font-size:12px;font-weight:lighter;color:#000;margin:5px 0 5px 0;}
+div.categoria_container ul li p.legenda_pessoas{display:block;float:left;clear:both;height:auto;font-family:'Roboto Condensed',sans-serif;font-size:12px;font-weight:lighter;color:#000;margin:5px 0 20px 0;}
+div.categoria_container ul li p strong{font-weight:700}
+div.categoria_container ul li.ativo p{color:#d3101d;}
+div.categoria_container.ativo{display:block;}
+.break{clear:both;}
+div.bt_votar{cursor:pointer;background-color:#3e6067;clear:both;color:#fff;height:32px;width:87px;text-align:center;font:16px/34px bold;font-family:'Arial',sans-serif;margin: 0 auto;padding:0;}
+.erro_nao_votou{height:30px;margin:10px 0 0;font:16px/30px arial;color:#fff;padding:0;text-align:center;background-color:#ec7070;clear:both;text-align:center;display:none;}
+.botao_votar{cursor:pointer;background-image:url('/assets/img/css/botao-votar.png');background-repeat:no-repeat;display:block;width:221px;height:73px;background-position:0 0;clear:both;margin:24px auto 0;border:0 none;text-indent:-999px;}
+
+#final_votacao .imagem_final{display:block;margin:0 auto;}
+#final_votacao .imagem_gif{margin:35px auto 30px;}
+#final_votacao .imagem_obrigado{padding:0 0 15px;margin:0 auto 15px;border-bottom:1px solid #d1d1d1}
+#final_votacao .imagem_aguardar{padding:0 0 80px;}
+#final_votacao .obrigado-votar{font-family:'Roboto Condensed',sans-serif;font-size:40px;font-weight:700;line-height:40px;color:#1a1a1a;margin-bottom:15px;text-transform:uppercase;text-align:center;}
+#final_votacao .obrigado-vencedores{font-family:'Roboto Condensed',sans-serif;font-size:20px;font-weight:300;line-height:20px;color:#1a1a1a;margin-bottom:15px;text-align:center;}
+#captchaVotos{margin:0 auto;text-align:center;width:450px;}
+p#aviso{display:block;font-family:Arial,sans-serif;font-size:18px;font-weight:bold;line-height:23px;margin:0 auto 30px;width:600px;}
+
+.votar{background: url('/assets/img/css/voto-selecionado.png'); height:30px;width:30px;}
+
+div.categoria_container ul li.centraliza{margin-left:184px;}
+.marginTop{padding-top:20px;}
+
+/*modal*/
+#avisoContainer{display:none;position:fixed;left:0;top:0;right:0;bottom:0;background-image:url('/assets/img/css/px.png');z-index:10;}
+#avisoContainer #loadingAviso{display:none;width:100%;height:128px;margin-top:200px;background: url('/assets/img/css/carregando3.gif') center no-repeat;}
+#avisoContainer .avisoContainerInterno{width:381px;height:196px;background-image:url('/assets/img/ps-fotos/ps-desktop/modal_premio_saude.jpg');margin: 150px auto;}
+#avisoContainer .avisoContainerTitulo{color: #fff;font-family:'whitney_htfbook_condensed', 'Arial';font-size: 24px;line-height:54px;height:54px;margin: 0 auto;padding:0;text-align: center;width: 93%;font-weight: bold;}
+#avisoContainer .avisoContainerTexto{font-family: 'Roboto Condensed',sans-serif;font-size: 20px;height: 69px;line-height: 25px;margin:20px auto 0;text-align: center;width: 81%;font-weight:lighter;}
+#avisoContainer #modalBotaoOk{float:left;background-color:#3e6067;cursor: pointer;height:37px;margin: 0 auto;width: 109px;margin-left:136px;margin-right:0;float:left;font-family: 'whitney_htfbook_condensed','Arial';font-size: 20px;line-height: 37px;text-align: center;font-weight: 700;color: #fff;}
+#avisoContainer #modalVotarNovamente{float:left;background-color:#3e6067;cursor: pointer;height: 37px;margin: 0 auto;width: 263px;font-family: 'HelveticaNeue';font-size: 20px;line-height: 40px;text-align: center;font-weight: 700;color: #fff;}

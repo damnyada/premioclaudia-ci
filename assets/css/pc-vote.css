@@ -1,0 +1,532 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/* Inicio */
+
+@font-face {
+    font-family: 'grumpyblack24';
+    src: url('font/grumpyblack-webfont.eot');
+    src: url('font/grumpyblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/grumpyblack-webfont.woff2') format('woff2'),
+         url('font/grumpyblack-webfont.woff') format('woff'),
+         url('font/grumpyblack-webfont.ttf') format('truetype'),
+         url('font/grumpyblack-webfont.svg#grumpyblack24') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arquitectabook';
+    src: url('font/ArquitectaBook-webfont.eot');
+    src: url('font/ArquitectaBook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ArquitectaBook-webfont.woff2') format('woff2'),
+         url('font/ArquitectaBook-webfont.woff') format('woff'),
+         url('font/ArquitectaBook-webfont.ttf') format('truetype'),
+         url('font/ArquitectaBook-webfont.svg#arquitectabook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'arquitectabook';    
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+}
+
+body h1 {
+    font-family: 'grumpyblack24';
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 3px;
+}
+
+/*AVISO*/
+
+.aviso-container, .vota-container, .final-container, .erro-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 15;
+    background-color: rgba(0,0,0,0.9);
+    background-repeat: repeat;
+}
+
+.aviso-tv {
+	max-width: 700px;
+	height: 90%; 
+	left: 0px;
+	right: 0px;
+	margin: 0 auto;
+	position: relative;
+    background-image: url("/assets/img/pcontigo/layout/box-pop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.aviso-texto {
+	width: 100%;
+	font-size: 35px;
+	line-height: 40px;
+    padding-top: 42%;
+    position: absolute;
+    color: #000;
+}
+
+.bold {
+    font-weight: 900;
+    color: #D0242E;
+}
+
+#aviso-comecar {
+    width: 250px;
+    height: 120px;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    background:url("/assets/img/pcontigo/layout/botao-VOLTAR-01.svg");
+}
+
+.vota-container {
+    display: none;
+}
+
+.vota-container, .final-container, .erro-container {
+    padding-top: 33%;
+}
+
+.vota-texto {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding-top: 40%;
+    margin: 0 auto;
+    color: #000;
+}
+
+.vota-texto .bold {
+    color: inherit;
+}
+
+.aviso-revisar {
+    width: 200px;
+    height: 90px;
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+    background: url("/assets/img/pcontigo/layout/botao-REVISAR-01.svg");
+    display: inline-block;
+}
+
+#aviso-votar {
+    width: 200px;
+    height: 90px;
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+    background: url("/assets/img/pcontigo/layout/botao-VOTAR-01.svg");
+    display: inline-block;
+}
+
+#aviso-voltar {
+    width: 200px;
+    height: 90px;
+    left: 0;
+    right: 0;
+    margin: 15px auto;
+    background: url("/assets/img/pcontigo/layout/botao-VOLTAR-01.svg");
+    display: inline-block;
+}
+
+#aviso-comecar, .aviso-revisar, #aviso-votar, #aviso-voltar {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.final-container {
+    display: none;
+}
+
+.aviso-final {
+    color: #000;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    width: 600px;
+    padding-top: 40%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.aviso-final h1 {
+    color: #D0242E;
+}
+
+.erro-container {
+    display: none;
+}
+
+.erro-texto {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding-top: 43%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #000;
+}
+
+/*PRINCIPAIS*/
+.container {
+    margin: 0px auto;
+    position: relative;
+    width: 1134px;
+    padding-top: 25px;
+}
+
+#tv-logo {
+    position: absolute;
+    width: 38%;
+    top: 5px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+}
+
+#tv-buttons {
+    position: absolute;
+    width: 9%;
+    top: 215px;
+    right: 2%;
+}
+
+.top {
+	background-image: url("/assets/img/pcontigo/layout/topo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+}
+
+.main {
+    background-color: #000407;
+    border-left: 35px solid white;
+    border-right: 151px solid white;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.intro {
+    padding: 10px 16px;
+    padding-top: 65px;
+}
+
+#cat-buttons li {
+    display: inline-block;
+    color: black;
+    font-family: 'grumpyblack24';
+    font-size: 19px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 22px 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#categoria div {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 17px;
+}
+
+#titulo {
+    max-width: 77%;
+}
+
+#titulo-categoria {
+    color: #D0242E;
+    line-height: 53px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#avanca {
+    background-image:url("/assets/img/pcontigo/layout/setas-passar.svg");    
+}
+
+#volta {
+    background-image:url("/assets/img/pcontigo/layout/setas-voltar.svg");    
+}
+
+.candidatos-container {
+    display: inline-block;
+    width: 95%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.candidatos-container li[data-voto] {
+    text-align: center;
+    width: 25%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 29px auto;
+}
+
+.candidatos-container li[data-voto] img {
+    cursor: pointer;
+    width: 80%;
+}
+
+.texto-candidato {
+    font-size: 19px;
+    line-height: 30px;
+}
+
+.texto-candidato h3 {
+    font-family: 'grumpyblack24';
+}
+
+.texto-candidato p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.escolhido {
+    position: relative;
+}
+
+.escolhido img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+     -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.escolhido:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 85px;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    background-image: url("/assets/img/pcontigo/layout/icone-votado.svg");
+    background-size: 100%;
+}
+
+.escolhido:after {
+    content: "";
+    display: block;
+    width: 167px;
+    height: 167px;
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    border: 8px solid #D0242E;
+    border-radius: 50%;
+}
+
+.escolhido .texto-candidato h3 {
+    color: #D0242E;
+}
+
+.footer {
+	background-image: url("/assets/img/pcontigo/layout/base.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 78px;
+    margin-bottom: 30px;
+}
+
+
+#encerrado {
+    margin-bottom: 10px;
+}
+
+#circularG{
+    position:relative;
+    width:43px;
+    height:43px;
+    top: 5px;
+    margin: 0 auto;
+}
+
+.circularG{
+    display: none;
+    position:absolute;
+    background-color:#D0242C;
+    width:10px;
+    height:10px;
+    -moz-border-radius:7px;
+    -moz-animation-name:bounce_circularG;
+    -moz-animation-duration:0.96s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:normal;
+    -webkit-border-radius:7px;
+    -webkit-animation-name:bounce_circularG;
+    -webkit-animation-duration:0.96s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:normal;
+    -ms-border-radius:7px;
+    -ms-animation-name:bounce_circularG;
+    -ms-animation-duration:0.96s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-direction:normal;
+    -o-border-radius:7px;
+    -o-animation-name:bounce_circularG;
+    -o-animation-duration:0.96s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:normal;
+    border-radius:7px;
+    animation-name:bounce_circularG;
+    animation-duration:0.96s;
+    animation-iteration-count:infinite;
+    animation-direction:normal;
+}
+
+#circularG_1{
+    left:0;
+    top:17px;
+    -moz-animation-delay:0.36s;
+    -webkit-animation-delay:0.36s;
+    -ms-animation-delay:0.36s;
+    -o-animation-delay:0.36s;
+    animation-delay:0.36s;
+}
+
+#circularG_2{
+    left:5px;
+    top:5px;
+    -moz-animation-delay:0.48s;
+    -webkit-animation-delay:0.48s;
+    -ms-animation-delay:0.48s;
+    -o-animation-delay:0.48s;
+    animation-delay:0.48s;
+}
+
+#circularG_3{
+    top:0;
+    left:17px;
+    -moz-animation-delay:0.6s;
+    -webkit-animation-delay:0.6s;
+    -ms-animation-delay:0.6s;
+    -o-animation-delay:0.6s;
+    animation-delay:0.6s;
+}
+
+#circularG_4{
+    right:5px;
+    top:5px;
+    -moz-animation-delay:0.72s;
+    -webkit-animation-delay:0.72s;
+    -ms-animation-delay:0.72s;
+    -o-animation-delay:0.72s;
+    animation-delay:0.72s;
+}
+
+#circularG_5{
+    right:0;
+    top:17px;
+    -moz-animation-delay:0.84s;
+    -webkit-animation-delay:0.84s;
+    -ms-animation-delay:0.84s;
+    -o-animation-delay:0.84s;
+    animation-delay:0.84s;
+}
+
+#circularG_6{
+    right:5px;
+    bottom:5px;
+    -moz-animation-delay:0.96s;
+    -webkit-animation-delay:0.96s;
+    -ms-animation-delay:0.96s;
+    -o-animation-delay:0.96s;
+    animation-delay:0.96s;
+}
+
+#circularG_7{
+    left:17px;
+    bottom:0;
+    -moz-animation-delay:1.08s;
+    -webkit-animation-delay:1.08s;
+    -ms-animation-delay:1.08s;
+    -o-animation-delay:1.08s;
+    animation-delay:1.08s;
+}
+
+#circularG_8{
+    left:5px;
+    bottom:5px;
+    -moz-animation-delay:1.2s;
+    -webkit-animation-delay:1.2s;
+    -ms-animation-delay:1.2s;
+    -o-animation-delay:1.2s;
+    animation-delay:1.2s;
+}
+
+@-moz-keyframes bounce_circularG{
+    0%{
+    -moz-transform:scale(1)}
+
+    100%{
+    -moz-transform:scale(.3)}
+
+}
+
+@-webkit-keyframes bounce_circularG{
+    0%{
+    -webkit-transform:scale(1)}
+
+    100%{
+    -webkit-transform:scale(.3)}
+
+}
+
+@-ms-keyframes bounce_circularG{
+    0%{
+    -ms-transform:scale(1)}
+
+    100%{
+    -ms-transform:scale(.3)}
+
+}
+
+@-o-keyframes bounce_circularG{
+    0%{
+    -o-transform:scale(1)}
+
+    100%{
+    -o-transform:scale(.3)}
+
+}
+
+@keyframes bounce_circularG{
+    0%{
+    transform:scale(1)}
+
+    100%{
+    transform:scale(.3)}
+
+}
