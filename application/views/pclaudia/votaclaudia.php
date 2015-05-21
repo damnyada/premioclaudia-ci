@@ -47,24 +47,24 @@
                 <main class="content">
                     <nav class="index">
                         <ul>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>1</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>2</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>3</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>4</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>5</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>6</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                             <li>7</li>
-                            <li>.</li>
+                            <li class="ponto"></li>
                         </ul>
                     </nav>
-                    <!--<div class="categoria">
+                    <div class="categoria">
                         <h1 class="catNome">Trabalho social</h1>
                     </div>
                     <div class="candidato">
@@ -77,7 +77,7 @@
                             <a class="vejaMais" href="#">Veja mais</a>
                         </div>
                         <div class="coracao"></div>
-                    </div> -->
+                    </div>
 <!--
                     <div class="candidato">
                         <div class="candInfo">

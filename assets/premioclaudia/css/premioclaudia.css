@@ -208,8 +208,7 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-
-    #logo{
+#logo{
         margin: -14px auto;
     }
 
