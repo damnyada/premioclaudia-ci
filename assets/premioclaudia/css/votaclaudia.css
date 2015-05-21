@@ -277,8 +277,25 @@ a {
         margin-right: 22px;
     }
 
-    .candFoto, .candInfo{
+    .candFoto{
         margin:auto;
+        float:none;
+        position:relative;
+        top:-88px;
+        width:50%;
+    }
+    .candInfo{
+        margin: -51px auto;
+        float:none;
+    }
+
+    .candidato{
+        margin: auto 325px;
+        float:left;
+        position:relative;
+        top: 81px;
+        height: 265px;
+        width: 350px;
     }
 
     /* MENU */
