@@ -87,7 +87,7 @@ table {
 
 html {
     height: 100%;
-    width: 100%;
+    min-height: 100%;
     background-color: #f6f5f1;
     background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Opera 11.1 to 12.0 */
@@ -125,9 +125,9 @@ a {
     position: relative;
     width: 100%;
     font-family: 'arquitectaregular';
-    font-size: 2.1em;
+    font-size: 1.44em;
     letter-spacing: 0.6px;
-    line-height: 1.3em;
+    line-height: 1.25em;
     padding-top: 0.65em;
 }
 
@@ -147,11 +147,12 @@ a {
 }
 
 #logo {
-    width: 210px;
-    height: 210px;    
+    width: 150px;
+    max-width: 150px;
     background: url('../img/logo-vertical.svg') no-repeat;
     background-size: contain;
     margin: 0 auto;
+    padding-top: 150px;
 }
 
 .content {
@@ -171,7 +172,7 @@ a {
 }
 
 #novamenteBtn {
-    width: 12.5em;
+    width: 11.5em;
     height: 2.15em;
     line-height: 2.15em;
     border: 3px solid #000;
@@ -179,7 +180,7 @@ a {
 }
 
 #novamenteBtn span {
-    letter-spacing: 4px;
+    letter-spacing: 1.7px;
 }
 
 #resultadoBtn {
