@@ -308,7 +308,7 @@ a {
     }
 
     .triangles {
-        top: -240px;
+        margin-top: -250px;
         height: 700px;
         background: url(../img/triangulos.svg) no-repeat top;
         background-size: auto 570px;
@@ -357,7 +357,7 @@ a {
         padding: 1px 10px 24px;
     }
     .candidatos-wrapper{
-        padding: 10px 386px;
+        padding: 39px 386px;
     }
 
     .coracao{
@@ -369,6 +369,16 @@ a {
     .vejaMais{
         font-size: 1em;
         padding: 10px;
+    }
+
+    .vejaMais:hover{
+        text-decoration: underline;
+    }
+
+    .catNome{
+        font-size: 1.8em;
+        letter-spacing: 4.9px;
+        margin: 24px;
     }
     /* MENU */
     #menu-m {
