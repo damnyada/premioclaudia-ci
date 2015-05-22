@@ -164,6 +164,7 @@ a {
     background-color: white;
     box-shadow: 1px 1px 2px #c9c9c9;
     position: relative;
+    cursor: pointer;
 }
 
 .candFoto, .candInfo {
