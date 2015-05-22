@@ -70,46 +70,44 @@
                     </nav>
                     <div class="categoria">
                         <h1 class="catNome">Trabalho social</h1>
+                        <div class="candidatos-wrapper" data-categoria="8887099">
+                            <div class="candidato" data-voto="40441567">
+                                <div class="candFoto">
+                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                </div>
+                                <div class="candInfo">
+                                    <h2>Dagmar Garroux</h2>
+                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <a class="vejaMais" href="#">Veja mais</a>
+                                </div>
+                                <div class="coracao"></div>
+                            </div>
+
+                            <div class="candidato" data-voto="40441568">
+                                <div class="candFoto">
+                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                </div>
+                                <div class="candInfo">
+                                    <h2>Juliana de Faria</h2>
+                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <a class="vejaMais" href="#">Veja mais</a>
+                                </div>
+                                <div class ="coracao"></div>
+                            </div>
+
+                            <div class="candidato" data-voto="40441569">
+                                <div class="candFoto">
+                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                </div>
+                                <div class="candInfo">
+                                    <h2>Sula Sevillis</h2>
+                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <a class="vejaMais" href="#">Veja mais</a>
+                                </div>
+                                <div class="coracao"></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="candidatos-wrapper">
-                        <div class="candidato">
-                            <div class="candFoto">
-                                <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
-                            </div>
-                            <div class="candInfo">
-                                <h2>Kellen Ribas</h2>
-                                <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
-                                <a class="vejaMais" href="#">Veja mais</a>
-                            </div>
-
-                            <div class="coracao"></div>
-                        </div>
-
-                        <div class="candidato">
-                            <div class="candFoto">
-                                <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
-                            </div>
-                            <div class="candInfo">
-                                <h2>Kellen Ribas</h2>
-                                <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
-                                <a class="vejaMais" href="#">Veja mais</a>
-                            </div>
-
-                            <div class ="coracao"></div>
-                        </div>
-                            <div class="candidato">
-                            <div class="candFoto">
-                                <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
-                            </div>
-                            <div class="candInfo">
-                                <h2>Kellen Ribas</h2>
-                                <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
-                                <a class="vejaMais" href="#">Veja mais</a>
-                            </div>
-                            <div class="coracao"></div>
-                        </div>
-                    </div>
-
                 </main>
             </div>
         </div>
