@@ -5,8 +5,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
-                <script src="../assets/premioclaudia/js/script.js"></script>
     </head>
     <body>
 
@@ -84,7 +84,7 @@
 
                             <div class="animated infinite bounceIn coracao"></div>
                         </div>
-                    
+
                         <div class="candidato">
                             <div class="candFoto">
                                 <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
@@ -108,11 +108,11 @@
                             </div>
                             <div class="animated bounceIn coracao"></div>
                         </div>
-                    </div> 
+                    </div>
 
                 </main>
             </div>
-        </div> <!-- close container -->
-
+        </div>
+        <script src="../assets/premioclaudia/js/premioclaudia.js"></script>
     </body>
 </html>
