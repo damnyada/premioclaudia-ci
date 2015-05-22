@@ -78,8 +78,11 @@
                         </div>
                         <div class="coracao"></div>
                     </div>
-<!--
+
                     <div class="candidato">
+                        <div class="candFoto">
+                            <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                        </div>
                         <div class="candInfo">
                             <h2>Kellen Ribas</h2>
                             <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
@@ -88,6 +91,9 @@
                         <div class="coracao"></div>
                     </div>
                     <div class="candidato">
+                        <div class="candFoto">
+                            <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                        </div>
                         <div class="candInfo">
                             <h2>Kellen Ribas</h2>
                             <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
@@ -95,7 +101,7 @@
                         </div>
                         <div class="coracao"></div>
                     </div>
--->
+
                 </main>
             </div>
         </div>
