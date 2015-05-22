@@ -159,10 +159,11 @@ a {
 .candidato {
     width: 100%;
     max-width: 320px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: 20px auto;
+    margin-bottom: 30px;
     background-color: white;
     box-shadow: 1px 1px 2px #c9c9c9;
+    position: relative;
 }
 
 .candFoto, .candInfo {
@@ -202,10 +203,20 @@ a {
     font-size: 0.7em;
     text-transform: lowercase;
 }
-    #menu-m {
-        display: none;
-    }
 
+.coracao {
+    width: 38px;
+    height: 38px;
+    background: url(../img/coracao-preto.svg) no-repeat center;
+    background-size: contain;
+    position: absolute;
+    top: 81%;
+    right: 13px;
+}
+
+#menu-m {
+    display: none;
+}
     
 @media screen and (min-width: 1024px) {
     #logo{
