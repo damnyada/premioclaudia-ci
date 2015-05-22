@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
     </head>
     <body>
+
     <!-- MENU M -->
         <div id="menu-m">
             <div id="menu-bg">
@@ -38,7 +40,8 @@
                     </ul>
                 </div>
             </div>
-        </div>    
+        </div>
+
         <div class="container">
             <div class="triangles"></div>
             <div class="wrapper">
@@ -78,8 +81,10 @@
                                 <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
-                            <div class="coracao"></div>
+
+                            <div class="animated infinite bounceIn coracao"></div>
                         </div>
+
                         <div class="candidato">
                             <div class="candFoto">
                                 <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
@@ -89,9 +94,10 @@
                                 <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
-                            <div class="coracao"></div>
+
+                            <div class ="animated infinite bounceIn coracao"></div>
                         </div>
-                        <div class="candidato">
+                            <div class="candidato">
                             <div class="candFoto">
                                 <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
                             </div>
@@ -100,12 +106,13 @@
                                 <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
-                            <div class="coracao"></div>
+                            <div class="animated bounceIn coracao"></div>
                         </div>
                     </div>
+
                 </main>
             </div>
         </div>
-    <script src="../assets/premioclaudia/js/premioclaudia.js"></script>
+        <script src="../assets/premioclaudia/js/premioclaudia.js"></script>
     </body>
 </html>
