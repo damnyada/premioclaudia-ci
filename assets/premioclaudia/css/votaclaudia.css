@@ -204,7 +204,6 @@ a {
     text-transform: lowercase;
 }
 
-<<<<<<< HEAD
 .coracao {
     width: 38px;
     height: 38px;
@@ -218,9 +217,6 @@ a {
 #menu-m {
     display: none;
 }
-=======
-
->>>>>>> origin/master
     
 @media screen and (min-width: 1024px) {
     #logo{
