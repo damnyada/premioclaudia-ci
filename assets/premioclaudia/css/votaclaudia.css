@@ -86,12 +86,13 @@ table {
 }
 
 html {
-    height: 100%;
     background-color: #f6f5f1;
     background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#eceade 1%, #f6f5f1 40%); /* Standard syntax */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .capital {
@@ -158,6 +159,10 @@ a {
     margin-top: 0.5em;
 }
 
+.index {
+    margin: 5px 0;
+}
+
 .index ul li {
     font-family: "grumpyblack24";
     display: inline-block;
@@ -174,6 +179,7 @@ a {
     font-family: "arquitecta_blackblack";
     color: #c2081f;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .candidato {
