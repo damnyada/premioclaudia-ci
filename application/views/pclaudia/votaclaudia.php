@@ -52,19 +52,19 @@
                     <nav class="index">
                         <ul>
                             <li class="ponto"></li>
-                            <li>1</li>
+                            <li class="active">1</li>
                             <li class="ponto"></li>
-                            <li>2</li>
+                            <li class="idle">2</li>
                             <li class="ponto"></li>
-                            <li>3</li>
+                            <li class="inactive">3</li>
                             <li class="ponto"></li>
-                            <li>4</li>
+                            <li class="inactive">4</li>
                             <li class="ponto"></li>
-                            <li>5</li>
+                            <li class="inactive">5</li>
                             <li class="ponto"></li>
-                            <li>6</li>
+                            <li class="inactive">6</li>
                             <li class="ponto"></li>
-                            <li>7</li>
+                            <li class="inactive">7</li>
                             <li class="ponto"></li>
                         </ul>
                     </nav>
