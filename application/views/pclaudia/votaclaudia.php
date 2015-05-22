@@ -73,7 +73,7 @@
                         <div class="candidatos-wrapper" data-categoria="8887099">
                             <div class="candidato" data-voto="40441567">
                                 <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-dagmar-garroux.png" alt=""></img>
                                 </div>
                                 <div class="candInfo">
                                     <h2>Dagmar Garroux</h2>
@@ -85,7 +85,7 @@
 
                             <div class="candidato" data-voto="40441568">
                                 <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-juliana-de-faria.png" alt=""></img>
                                 </div>
                                 <div class="candInfo">
                                     <h2>Juliana de Faria</h2>
@@ -97,7 +97,7 @@
 
                             <div class="candidato" data-voto="40441569">
                                 <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/placeholder.gif" alt=""></img>
+                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-sula-sevillis.png" alt=""></img>
                                 </div>
                                 <div class="candInfo">
                                     <h2>Sula Sevillis</h2>
