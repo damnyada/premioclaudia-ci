@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="candInfo">
                                     <h2>Dagmar Garroux</h2>
-                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <p>Pedagoga abre portas para que jovens em situação de risco social superem limitações</p>
                                     <a class="vejaMais" href="#">Veja mais</a>
                                 </div>
                                 <div class="coracao"></div>
@@ -89,7 +89,7 @@
                                 </div>
                                 <div class="candInfo">
                                     <h2>Juliana de Faria</h2>
-                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <p>Lutar contra o assédio sexual que mulheres sofrem diariamente é o trabalho da jornalista</p>
                                     <a class="vejaMais" href="#">Veja mais</a>
                                 </div>
                                 <div class ="coracao"></div>
@@ -101,7 +101,7 @@
                                 </div>
                                 <div class="candInfo">
                                     <h2>Sula Sevillis</h2>
-                                    <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
+                                    <p>Radialista comanda programa que ajuda a conectar pessoas de áreas remotas da Amazônia</p>
                                     <a class="vejaMais" href="#">Veja mais</a>
                                 </div>
                                 <div class="coracao"></div>
