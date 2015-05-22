@@ -112,9 +112,9 @@ a {
     position: relative;
     width: 100%;
     font-family: 'arquitectaregular';
-    font-size: 1.6em;
+    font-size: 1.1em;
     letter-spacing: 0.6px;
-    line-height: 1.3em;
+    line-height: 1.1em;
     padding-top: 0.65em;
 }
 
@@ -129,7 +129,7 @@ a {
 }
 
 .wrapper {
-    margin: 0 1.1em;;
+    margin: 0 0.5em;
     text-align: center;
 }
 
@@ -157,29 +157,34 @@ a {
 }
 
 .candidato {
-    height: 160px;
     width: 100%;
-    max-width: 480px;
+    max-width: 320px;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: white;
     box-shadow: 1px 1px 2px #c9c9c9;
 }
 
 .candFoto, .candInfo {
-    float: left;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .candFoto {
-    width: 30%;
+    padding: 7px;
 }
 
 .candInfo {
-    width: 70%;
+    width: 60%;
+    vertical-align: top;
+    padding-top: 3%;
+    padding-right: 7px;
     text-align: left;
 }
 
 .candFoto img {
     width: 100%;
+    max-width: 90px;
 }
 
 .candInfo h2 {
