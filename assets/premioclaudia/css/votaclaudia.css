@@ -221,13 +221,13 @@ a {
     
 @media screen and (min-width: 1024px) {
     #logo{
-        width: 20.40em;
-        height: 8.880em;
+        width: 30.4em;
+        height: 9.50em;
     }
 
     .index ul li{
-        letter-spacing: 0.600em;
-        font-size: 1.543em;
+        letter-spacing: 1em;
+        font-size: 2.543em;
     }
 
     #apoio #title{
@@ -276,20 +276,22 @@ a {
 
     .container{
         margin: auto;
-        top: 150px;       
+        top: 150px;  
+        letter-spacing: 2px;
+        line-height: 1.3em;          
     }
 
     .triangles {
         top: -240px;
         height: 700px;
         background: url(../img/triangulos.svg) no-repeat top;
-        background-size: auto 550px;
+        background-size: auto 570px;
     }
 
     .ponto {
         background: url("../img/ponto.svg") no-repeat scroll center center / 6px 6px;
         width: 12px;
-        padding-top:1.3%;
+        padding-top:2.3%;
         margin-right: 22px;
     }
 
@@ -297,11 +299,21 @@ a {
         margin:auto;
         float:none;
         position:relative;
-        top:-98px;
-        width:50%;
+        top:-117px;
+        width:59%;
+    }
+
+    .candFoto img{
+        max-width:none;
     }
     .candInfo{
-        margin: -96px 22px;
+        margin: -124px 22px;
+        width: 100%;
+    }
+
+    .candInfo h2{
+        font-size:1.35em;
+        padding: 10px;
     }
 
     .candidato{
@@ -314,20 +326,24 @@ a {
         cursor: pointer;
     }
 
+    .candidato p{
+        font-size: 1.3em;
+        padding: 1px 10px 24px;
+    }
     .candidatos-wrapper{
-        padding: 10px 319px;
+        padding: 10px 386px;
     }
 
     .coracao{
-        background: url('../img/coracao-preto.svg');
-        background-size: 100%;
-        background-repeat: no-repeat;
         float: right;
         width: 70px;
         height: 99px;
-        margin: 43px 20px
+        margin: -2px 20px;
     }
-
+    .vejaMais{
+        font-size: 1em;
+        padding: 10px;
+    }
     /* MENU */
     #menu-m {
         display: block;

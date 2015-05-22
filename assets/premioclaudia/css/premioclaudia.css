@@ -209,7 +209,7 @@ a {
 }
 
 @media screen and (min-width: 1024px) {
-#logo{
+    #logo{
         margin: -14px auto;
     }
 
@@ -259,7 +259,8 @@ a {
 
     .container{
         margin: auto;
-        top: 150px;       
+        top: 150px;
+        letter-spacing: 1.6px;       
     }
 
     .triangles {
