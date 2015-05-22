@@ -244,7 +244,48 @@ a {
 #menu-m {
     display: none;
 }
-    
+
+@media screen and (min-width: 450px) and (max-width: 1023px) {
+    .candFoto{
+        margin:auto;
+        float:none;
+        position:relative;
+        top:-117px;
+        width:59%;
+    }
+
+    .candFoto img{
+        max-width:none;
+    }
+    .candInfo{
+        margin: -124px 22px;
+        width: 100%;
+    }
+
+    .candInfo h2{
+        font-size:1.35em;
+        padding: 10px;
+    }
+
+    .candidato{
+        margin: auto 53px auto 0px;
+        float:left;
+        position:relative;
+        top: 81px;
+        height: 265px;
+        width: 350px;
+        cursor: pointer;
+    }
+
+    .candidato p{
+        font-size: 1.3em;
+        padding: 1px 10px 24px;
+    }
+    .candidatos-wrapper{
+        padding: 39px 386px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     #logo{
         width: 30.4em;
