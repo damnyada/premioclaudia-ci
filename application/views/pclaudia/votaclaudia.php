@@ -82,7 +82,7 @@
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
 
-                            <div class="animated infinite bounceIn coracao"></div>
+                            <div class="coracao"></div>
                         </div>
 
                         <div class="candidato">
@@ -95,7 +95,7 @@
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
 
-                            <div class ="animated infinite bounceIn coracao"></div>
+                            <div class ="coracao"></div>
                         </div>
                             <div class="candidato">
                             <div class="candFoto">
@@ -106,7 +106,7 @@
                                 <p>A designer explica que é muito mais fácil e barato para uma indústria.</p>
                                 <a class="vejaMais" href="#">Veja mais</a>
                             </div>
-                            <div class="animated bounceIn coracao"></div>
+                            <div class="coracao"></div>
                         </div>
                     </div>
 
