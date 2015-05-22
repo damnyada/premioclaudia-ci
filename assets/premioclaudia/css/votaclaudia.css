@@ -157,29 +157,33 @@ a {
 }
 
 .candidato {
-    height: 160px;
     width: 100%;
     max-width: 480px;
     margin: 0 auto;
+    margin-top: 20px;
     background-color: white;
     box-shadow: 1px 1px 2px #c9c9c9;
+    text-align: left;
 }
 
 .candFoto, .candInfo {
-    float: left;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 .candFoto {
-    width: 30%;
+    padding: 7px;
 }
 
 .candInfo {
     width: 70%;
-    text-align: left;
+    vertical-align: top;
+    padding-top: 7px;
 }
 
 .candFoto img {
     width: 100%;
+    max-width: 90px;
 }
 
 .candInfo h2 {
