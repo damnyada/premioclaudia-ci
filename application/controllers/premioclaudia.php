@@ -61,7 +61,7 @@ class premioclaudia extends CI_Controller {
 			$usercode = $dt->pdResponse->userCode;
 			$categorias = array("categorias", "8887099");
 
-//			for ($i = 1; $i <= 1; $i++) {
+			for ($i = 1; $i <= 1; $i++) {
 				$curl_data = '{"pdRequest": {
 				    "partnerGUID": "25c1abeb-bbd3-b7e9-7b4c-000003b94808",
 				    "userCode": "'.$usercode.'",
@@ -95,11 +95,16 @@ class premioclaudia extends CI_Controller {
 				curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
 				$data = curl_exec( $ch );
 				curl_close( $ch );
-//			}
+			}
 
 			echo json_encode(array('resp' => 'yep'));
 		}
 	}
+
+	public function error(){
+		$this->load->view('nonono');
+	}
+
 }
 
 /* End of file votecontigo.php */
