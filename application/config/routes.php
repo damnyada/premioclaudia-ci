@@ -9,6 +9,7 @@ $route['pclaudia/inicio'] = 'premioclaudia/introClaudia';
 $route['pclaudia/vota'] = 'premioclaudia/votaClaudia';
 $route['pclaudia/obrigado'] = 'premioclaudia/obrigadoClaudia';
 $route['pclaudia/resultado'] = 'premioclaudia/resultadoClaudia';
+$route['pclaudia/envia'] = 'premioclaudia/envia';
 
 // Prêmio CONTIGO! de TV 2015
 $route['premiocontigo/vote'] = 'votecontigo/voteDesktop';

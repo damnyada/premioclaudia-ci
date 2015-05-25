@@ -37,14 +37,13 @@ class premioclaudia extends CI_Controller {
 	public function envia(){
 
 		if($_POST['c1']){
-
 			$curl_data_connect = json_encode(
 			    array(
 			            'pdInitiate' => array(
-			                'partnerGUID' => '7381bf0e-95f9-f549-9228-00003062052b',
+			                'partnerGUID' => '25c1abeb-bbd3-b7e9-7b4c-000003b94808',
 			                "partnerUserID" => "0",
-			                "email" => 'felipe.hardt@abril.com.br',
-			                "password" => '!@K2b3Yd%8$dS@nwBCWQpfedpS'
+			                "email" => 'daniel.yada@abril.com.br',
+			                "password" => '#yada1990'
 			            )
 			        )
 			    );
@@ -60,13 +59,11 @@ class premioclaudia extends CI_Controller {
 			$dt = json_decode( $data );
 
 			$usercode = $dt->pdResponse->userCode;
-			$categorias = array("categorias", "8703190", "8703224", "8703376", "8703261",
-								"8703271", "8703363", "8703387", "8703315", "8703388",
-								"8703299", "8703286", "8703396", "8703263", "8703232");
+			$categorias = array("categorias", "8887099");
 
-			for ($i = 1; $i <= 14; $i++) {
+//			for ($i = 1; $i <= 1; $i++) {
 				$curl_data = '{"pdRequest": {
-				    "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
+				    "partnerGUID": "25c1abeb-bbd3-b7e9-7b4c-000003b94808",
 				    "userCode": "'.$usercode.'",
 				    "demands": {
 				        "demand": {
@@ -98,17 +95,11 @@ class premioclaudia extends CI_Controller {
 				curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
 				$data = curl_exec( $ch );
 				curl_close( $ch );
-			}
+//			}
 
 			echo json_encode(array('resp' => 'yep'));
 		}
 	}
-
-	public function error(){
-		$this->load->view('nonono');
-	}
-
-
 }
 
 /* End of file votecontigo.php */
