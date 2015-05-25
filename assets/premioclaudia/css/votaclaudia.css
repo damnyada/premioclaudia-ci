@@ -245,7 +245,7 @@ a {
     display: none;
 }
 /*TABLET*/
-@media screen and (min-width: 450px) and (max-width: 1023px) {
+@media screen and (min-width: 748px) and (max-width: 1023px) {
 
     #logo{
         width: 400px;
@@ -306,6 +306,112 @@ a {
         font-size: 1.3em;
         padding: 1px 10px 24px;
     }
+
+    .vejaMais{
+        width: 201px;
+        height: 21px;
+        position: absolute;
+        top: 89%;
+    }
+
+    .coracao{
+        background-size: 76%
+        top: 84%;
+        width: 31%;
+        height: 33%;
+    }
+
+    .triangles {
+        margin-top: -12%;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: auto 570px;
+    }
+}
+
+    @media screen and (min-width: 450px) and (max-width: 747px) {
+        #logo{
+        width: 400px;
+        height: 9.50em;
+    }  
+
+    .index ul li{
+        font-size: 1.9em;
+    }
+    .active{
+        font-size: 1.9em;
+    }
+
+    .ponto{
+        background-size: 4px 4px;
+        width: 41px;
+        margin-top:13px;
+    }
+
+    .catNome{
+        font-size: 31px;
+        letter-spacing: 3.5px;
+        margin-top:14px;
+    }
+
+    .candFoto {
+        margin: -39% auto auto;
+        float:none;
+        position:relative;
+        width:79%;
+    }
+
+    .candFoto img{
+        max-width:none;
+    }
+
+    .candInfo{
+        margin: -3% 4%;
+        width: 100%;
+    }
+
+    .candInfo h2{
+        font-size:1.35em;
+        padding: 10px;
+    }
+
+    .candidato{
+        margin: 22px 20px 160px;
+        position:relative;
+        top: 81px;
+        min-height: 320px;
+        width: 24%;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .candidato p{
+        font-size: 1.3em;
+        padding: 1px 10px 24px;
+    }
+
+    .vejaMais{
+        width: 201px;
+        height: 21px;
+        position: absolute;
+        top: 89%;
+    }
+
+    .coracao{
+        background-size: 76%
+        top: 84%;
+        width: 31%;
+        height: 33%;
+    }
+
+    .triangles {
+        margin-top: -12%;
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: auto 570px;
+    }
+
+    
 
 }
 
