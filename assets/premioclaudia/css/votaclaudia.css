@@ -247,18 +247,17 @@ a {
 
 @media screen and (min-width: 450px) and (max-width: 1023px) {
     .candFoto {
-        margin:auto;
+        margin: -39% auto auto;
         float:none;
         position:relative;
-        top:-117px;
-        width:59%;
+        width:79%;
     }
 
     .candFoto img{
         max-width:none;
     }
     .candInfo{
-        margin: -124px 22px;
+        margin: -3% 4%;
         width: 100%;
     }
 
@@ -272,7 +271,7 @@ a {
         position:relative;
         top: 81px;
         height: 265px;
-        width: 350px;
+        width: 24%;
         cursor: pointer;
         display: inline-block;
     }
