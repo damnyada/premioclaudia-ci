@@ -244,8 +244,33 @@ a {
 #menu-m {
     display: none;
 }
-
+/*TABLET*/
 @media screen and (min-width: 450px) and (max-width: 1023px) {
+
+    #logo{
+        width: 400px;
+        height: 9.50em;
+    }  
+
+    .index ul li{
+        font-size: 1.9em;
+    }
+    .active{
+        font-size: 1.9em;
+    }
+
+    .ponto{
+        background-size: 4px 4px;
+        width: 41px;
+        margin-top:13px;
+    }
+
+    .catNome{
+        font-size: 31px;
+        letter-spacing: 3.5px;
+        margin-top:14px;
+    }
+
     .candFoto {
         margin: -39% auto auto;
         float:none;
@@ -256,6 +281,7 @@ a {
     .candFoto img{
         max-width:none;
     }
+
     .candInfo{
         margin: -3% 4%;
         width: 100%;
@@ -267,10 +293,10 @@ a {
     }
 
     .candidato{
-        margin: 60px 20px 160px;
+        margin: 22px 20px 160px;
         position:relative;
         top: 81px;
-        height: 265px;
+        min-height: 320px;
         width: 24%;
         cursor: pointer;
         display: inline-block;
@@ -280,8 +306,10 @@ a {
         font-size: 1.3em;
         padding: 1px 10px 24px;
     }
+
 }
 
+/*DESKTOP*/
 @media screen and (min-width: 1024px) {
     #logo{
         width: 30.4em;
@@ -399,7 +427,7 @@ a {
         height: 99px;
         margin: -2px 20px;
     }
-    .vejaMais{
+    .vejaMais a{
         font-size: 1em;
         padding: 10px;
     }
