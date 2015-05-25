@@ -33,7 +33,7 @@ $(document).ready(function(){
             type : 'post',
             dataType : 'json',
             url : '/pclaudia/envia',
-            data : {c1: votos[1]},
+            data : {c1: votos[0]},
             success: function(response){
                 console.log("OK");
             }

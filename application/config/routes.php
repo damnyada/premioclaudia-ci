@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-$route['default_controller'] = 'premioclaudia';
+$route['default_controller'] = 'votecontigo';
 //$route['404_override'] = 'votepc/error';
 
 

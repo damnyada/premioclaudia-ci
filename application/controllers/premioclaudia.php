@@ -40,10 +40,10 @@ class premioclaudia extends CI_Controller {
 			$curl_data_connect = json_encode(
 			    array(
 			            'pdInitiate' => array(
-			                'partnerGUID' => '25c1abeb-bbd3-b7e9-7b4c-000003b94808',
+			                'partnerGUID' => '7381bf0e-95f9-f549-9228-00003062052b',
 			                "partnerUserID" => "0",
-			                "email" => 'daniel.yada@abril.com.br',
-			                "password" => '#yada1990'
+			                "email" => 'portalmdemulher@gmail.com',
+			                "password" => '!@K2b3Yd%8$dS@nwBCWQpfedpS'
 			            )
 			        )
 			    );
@@ -61,9 +61,9 @@ class premioclaudia extends CI_Controller {
 			$usercode = $dt->pdResponse->userCode;
 			$categorias = array("categorias", "8887099");
 
-//			for ($i = 1; $i <= 1; $i++) {
+			for ($i = 1; $i <= 1; $i++) {
 				$curl_data = '{"pdRequest": {
-				    "partnerGUID": "25c1abeb-bbd3-b7e9-7b4c-000003b94808",
+				    "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
 				    "userCode": "'.$usercode.'",
 				    "demands": {
 				        "demand": {
@@ -95,11 +95,16 @@ class premioclaudia extends CI_Controller {
 				curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
 				$data = curl_exec( $ch );
 				curl_close( $ch );
-//			}
+			}
 
 			echo json_encode(array('resp' => 'yep'));
 		}
 	}
+
+	public function error(){
+		$this->load->view('nonono');
+	}
+
 }
 
 /* End of file votecontigo.php */
