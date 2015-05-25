@@ -37,13 +37,14 @@ class premioclaudia extends CI_Controller {
 	public function envia(){
 
 		if($_POST['c1']){
+            //echo "YES"; die();
 			$curl_data_connect = json_encode(
 			    array(
 			            'pdInitiate' => array(
 			                'partnerGUID' => '7381bf0e-95f9-f549-9228-00003062052b',
 			                "partnerUserID" => "0",
 			                "email" => 'portalmdemulher@gmail.com',
-			                "password" => '!@K2b3Yd%8$dS@nwBCWQpfedpS'
+			                "password" => '!@K2b3Yd%8$dS@nwBCWQpfedpS',
 			            )
 			        )
 			    );
@@ -58,6 +59,8 @@ class premioclaudia extends CI_Controller {
 			curl_close( $ch );
 			$dt = json_decode( $data );
 
+
+//            $usercode = $P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/;
 			$usercode = $dt->pdResponse->userCode;
 			$categorias = array("categorias", "8887099");
 
