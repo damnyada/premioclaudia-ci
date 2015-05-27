@@ -37,7 +37,7 @@ class premioclaudia extends CI_Controller {
 	public function envia(){
 
 		if($_POST['c1']){
-            var_dump ($_POST); die();
+//            var_dump ($_POST); die();
 			$curl_data_connect = json_encode(
 			    array(
 			            'pdInitiate' => array(
@@ -64,8 +64,8 @@ class premioclaudia extends CI_Controller {
 			$dt = json_decode( $data );
 
 
-            $usercode = '$P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/';
-//			$usercode = $dt->pdResponse->userCode;
+//            $usercode = '$P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/';
+			$usercode = $dt->pdResponse->userCode;
 			$categorias = array("categorias", "8887099");
 
 			for ($i = 1; $i <= 1; $i++) {
