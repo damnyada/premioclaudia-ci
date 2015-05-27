@@ -244,8 +244,111 @@ a {
 #menu-m {
     display: none;
 }
+
+@media screen and (min-width: 450px) and (max-width: 569px) {
+    .candidato{
+        max-width: 420px;
+    }
+}
 /*TABLET*/
-@media screen and (min-width: 450px) and (max-width: 1023px) {
+@media screen and (min-width: 572px) and (max-width: 747px) {
+    .index ul li {
+        font-size: 183%;
+    }
+
+    .container {
+        position: relative;
+        width: 100%;
+        font-family: 'arquitectaregular';
+        font-size: 1.1em;
+        letter-spacing: 0.6px;
+        line-height: 1.1em;
+        padding-top: 0.65em;
+    }
+
+    .triangles {
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: auto 371px;
+    }
+
+    .catNome {
+        font-size: 146%;
+        margin-top: 14px;
+    }
+
+    #logo {
+        width: 400px;
+        height: 9.5em;
+        background-size: 100% auto;
+        margin: 0 auto;
+        padding-top: 65px;
+    }
+
+    .candidato {
+        max-width: 600px;
+    }
+
+    .candidatos-wrapper{
+        padding:6%;
+    }
+    .ponto{
+        background-size: 5px 5px;
+        width: 41px;
+        margin-top:13px;
+    }
+
+    .candInfo {
+        width: 75%;
+    }
+
+
+
+
+    .candFoto {
+        padding: 7px;
+    }
+
+
+    .candFoto img {
+        width: 100%;
+        max-width: 90px;
+        padding: 7px;
+    }
+
+    .candInfo h2 {
+        font-family: "grumpyblack24";
+        font-size: 0.95em;
+        color: #c2081f;
+    }
+
+    .candInfo p {
+        font-size: 1em;
+    }
+
+    .vejaMais {
+        font-family: "grumpyblack24";
+        font-size: 0.7em;
+        text-transform: lowercase;
+    }
+
+    .coracao {
+        width: 38px;
+        height: 38px;
+        background-size: contain;
+        position: absolute;
+        top: 81%;
+        right: 13px;
+    }
+
+    #menu-m {
+        display: none;
+    }
+      
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 748px) and (max-width: 1023px) {
 
     #logo{
         width: 400px;
@@ -290,13 +393,14 @@ a {
     .candInfo h2{
         font-size:1.35em;
         padding: 10px;
+        line-height: 26px;
     }
 
     .candidato{
         margin: 22px 20px 160px;
         position:relative;
         top: 81px;
-        min-height: 320px;
+        min-height: 359px;
         width: 24%;
         cursor: pointer;
         display: inline-block;
@@ -305,8 +409,31 @@ a {
     .candidato p{
         font-size: 1.3em;
         padding: 1px 10px 24px;
+        line-height: 22px;
     }
 
+    .vejaMais{
+        width: 201px;
+        height: 21px;
+        position: absolute;
+        top: 89%;
+        font-size: 1em;
+        letter-spacing: 1.1px;
+        margin-left: 7px;
+    }
+
+    .coracao{
+        background-size: 76%
+        top: 84%;
+        width: 28%;
+        height: 33%;
+    }
+
+    .triangles {
+        height: 700px;
+        background-repeat: no-repeat;
+        background-size: auto 371px;
+    }
 }
 
 /*DESKTOP*/
@@ -386,24 +513,25 @@ a {
     }
 
     .candFoto{
-        margin:auto;
+        margin:-32% auto auto;
         float:none;
         position:relative;
-        top:-117px;
         width:59%;
     }
 
     .candFoto img{
         max-width:none;
     }
+
     .candInfo{
-        margin: -124px 22px;
+        margin: -7% 4%;
         width: 100%;
     }
 
     .candInfo h2{
         font-size:1.35em;
         padding: 10px;
+
     }
 
     .candidato{
@@ -411,7 +539,7 @@ a {
         position:relative;
         top: 81px;
         height: 265px;
-        width: 350px;
+        width: 28%;
         cursor: pointer;
         display: inline-block;
     }
@@ -422,14 +550,22 @@ a {
     }
 
     .coracao{
-        float: right;
-        width: 70px;
-        height: 99px;
-        margin: -2px 20px;
+        width: 29%;
+        height: 26%;
+        top:84%;
     }
     .vejaMais a{
         font-size: 1em;
         padding: 10px;
+        width: 201px;
+    }
+    .vejaMais{
+        width: 201px;
+        height: 21px;
+        position: absolute;
+        top: 87%;
+        margin-left: 11px;
+        font-size:1em;
     }
 
     .vejaMais:hover{
@@ -441,6 +577,7 @@ a {
         letter-spacing: 4.9px;
         margin: 12px;
     }
+
     /* MENU */
     #menu-m {
         display: block;
