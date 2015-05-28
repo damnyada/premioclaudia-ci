@@ -6,20 +6,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/tablet.css">
+        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/mobile-menu.css">
         <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../assets/premioclaudia/js/script_menu_m.js?v=2.0"></script>
+
+   <!--  <link href="css/style.2.0.smartphone.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/menu-m/menu-m.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="css/menu-m/menu-m-smartphone.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/jquery.cycle.all.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.mobile-1.3.2.min.js"></script>
+    
+    <script src="js/guia.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" /> -->
     </head>
     <body>
 
     <!-- MENU M -->
-        <div id="menu-m">
+        <div id="menu-mdm">
             <div id="menu-bg">
                 <div id="publicidade-wrap">
                     <div id="abrAD_leaderboard1"></div>
                 </div>
                 <div id="menu-wrap">
-                    <ul id="menu-m">
+                    <ul id="menu-mdm">
                         <li id="menu-first">
                             <a href="http://mdemulher.abril.com.br/"></a>
                         </li>
@@ -43,8 +61,16 @@
                 </div>
             </div>
         </div>
+
         <!-- MENU MOBILE -->
-        <div id="menu-m">
+
+        <div id="parallax">
+        <section class="tier topo_site">
+            <!-- <div id="social" class="mobile">
+                <a href="https://twitter.com/share?via=mdemulher&text=Guia do sutiã: você sempre quis, mas ninguém tinha feito. Ainda. http://bit.ly/1Dv26b2 via @mdemulher" data-via="mdemulher" data-text="Guia do sutiã: você sempre quis, mas ninguém tinha feito. Ainda. http://bit.ly/1Dv26b2 via @mdemulher"><div class="twitter rede-social"><span class="texto">Tweet</span></div></a>
+                <div class="facebook rede-social"><span class="texto">Compartilhar</span></div>
+            </div> -->
+            <div id="menu-m">
                 <div id="spacer_conteudo">
                     <div id="spacer_conteudo_wrapper">
                         <div id="spacer_dummy"></div>
@@ -232,57 +258,9 @@
             </div>
         </div>
     </div>
-    <div id="mobile-main-menu" class="main-menu">
-        <section class="chanels">
-            <h2>Canais</h2>
-            <ul class="menu-main-header clearfix"><li class="first"><a href="http://mdemulher.abril.com.br/beleza">BELEZA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/cabelos">CABELOS</a></li>
-                <li><a href="http://mdemulher.abril.com.br/moda">MODA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/amor-e-sexo">AMOR E SEXO</a></li>
-                <li><a href="http://bebe.abril.com.br/">BEBÊ</a></li>
-                <li><a href="http://mdemulher.abril.com.br/familia">FAMÍLIA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/dieta">DIETA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/fitness">FITNESS</a></li>
-                <li><a href="http://mdemulher.abril.com.br/estilo-de-vida">ESTILO DE VIDA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/saude">SAÚDE</a></li>
-                <li><a href="http://mdemulher.abril.com.br/cultura">CULTURA</a></li>
-                <li><a href="http://mdemulher.abril.com.br/trabalho">TRABALHO</a></li>
-                <li><a href="http://mdemulher.abril.com.br/famosos-e-tv">FAMOSOS E TV</a></li>
-                <li><a href="http://mdemulher.abril.com.br/receitas">RECEITAS</a></li>
-                <li class="last"><a href="http://mdemulher.abril.com.br/especial/videos">VÍDEOS</a></li>
-            </ul>       </section>
-            <section class="hot">
-                <!-- O menu hot possui um label, muito importante ter a classe hot para remover o label -->
-                <h2>Hot</h2>
-                <span class="hot">HOT</span><ul class="hot-links clearfix"><li class="first"><a href="http://mdemulher.abril.com.br/revistas">Revistas</a></li>
-                <li><a href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/previsao-para-os-signos-por-susan-miller">Susan Miller</a></li>
-                <li><a href="http://mdemulher.abril.com.br/especial/o-melhor-do-verao-2015">Verão</a></li>
-                <li><a href="http://mdemulher.abril.com.br/horoscopo">Horóscopo</a></li>
-                <li><a href="http://mdemulher.abril.com.br/familia/de-carona-com-elas">DeCaronaComElas</a></li>
-                <li><a title="Especial de Natal" href="http://mdemulher.abril.com.br/especial/e-natal">Natal</a></li>
-                <li class="last"><a href="http://mdemulher.abril.com.br/especial/reveillon-2015">Réveillon</a></li>
-            </ul>         </section>
+    
 
-            <section class="marcas">
-                <h2>Revistas</h2>
-            </section>
-            <section class="mais last-menu">
-                <!-- muito importante que o ultimo menu antes de sociais tenha a classe last-menu -->
-                <h2>Mais</h2>
-                <ul class="menu-mais-mobile clearfix"><li class="first"><a href="http://www.publiabril.com.br/marcas/mdemulher/internet/informacoes-gerais">ANUNCIE</a></li>
-                    <li><a href="http://mdemulher.abril.com.br/expediente">EXPEDIENTE</a></li>
-                    <li><a href="http://drupal.org">FALE CONOSCO</a></li>
-                    <li><a href="http://mdemulher.abril.com.br/politica-de-privacidade">POLÍTICA DE PRIVACIDADE</a></li>
-                    <li class="last"><a href="http://mdemulher.abril.com.br/termos-de-uso">TERMOS DE USO</a></li>
-                </ul>         </section>
-
-                <section class="sociais1">
-                    <ul class="menu-header-social clearfix"><li class="first"><a href="https://pt-br.facebook.com/MdeMulher">Facebook</a></li>
-                        <li><a href="https://twitter.com/mdemulher">Twitter</a></li>
-                        <li><a href="http://instagram.com/mdemulher">Instagram</a></li>
-                    </ul>         </section>
-                </div>
-        <!-- fim -->
+        <!-- fim menu mobile-->
 
         <div class="container">
             <div class="triangles"></div>
