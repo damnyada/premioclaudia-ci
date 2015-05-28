@@ -245,13 +245,26 @@ a {
     display: none;
 }
 
-@media screen and (min-width: 450px) and (max-width: 569px) {
+@media screen and (min-width: 450px) and (max-width: 572px) {
     .candidato{
         max-width: 420px;
     }
+    #logo {
+        width: 270px;
+        margin-top:76px;
+        height: 69px;
+    }
+    .index ul li {
+        font-size: 143%;
+    }
+
+    .ponto{
+        background-size: 3px;
+        padding: 8px 5px;
+    }
 }
 /*TABLET*/
-@media screen and (min-width: 572px) and (max-width: 747px) {
+@media screen and (min-width: 573px) and (max-width: 747px) {
     .index ul li {
         font-size: 183%;
     }
@@ -287,6 +300,7 @@ a {
 
     .candidato {
         max-width: 600px;
+        text-align: left;
     }
 
     .candidatos-wrapper{
@@ -299,21 +313,17 @@ a {
     }
 
     .candInfo {
-        width: 75%;
+        width: 60%;
+        padding-top: 6%;
     }
 
 
-
-
-    .candFoto {
-        padding: 7px;
-    }
 
 
     .candFoto img {
         width: 100%;
-        max-width: 90px;
-        padding: 7px;
+        max-width: 146px;
+        padding: 6px;
     }
 
     .candInfo h2 {
@@ -337,7 +347,7 @@ a {
         height: 38px;
         background-size: contain;
         position: absolute;
-        top: 81%;
+        top: 89%;
         right: 13px;
     }
 
@@ -397,7 +407,7 @@ a {
     }
 
     .candidato{
-        margin: 22px 20px 160px;
+        margin: 22px 20px 116px;
         position:relative;
         top: 81px;
         min-height: 359px;
@@ -535,7 +545,7 @@ a {
     }
 
     .candidato{
-        margin: 60px 20px 160px;
+        margin: 60px 20px 116px;
         position:relative;
         top: 81px;
         height: 265px;

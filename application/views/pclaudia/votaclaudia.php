@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/tablet.css">
+        <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
     <body>
@@ -41,6 +43,246 @@
                 </div>
             </div>
         </div>
+        <!-- MENU MOBILE -->
+        <div id="menu-m">
+                <div id="spacer_conteudo">
+                    <div id="spacer_conteudo_wrapper">
+                        <div id="spacer_dummy"></div>
+                        <div id="menu">
+                            <div id="sombra_menu"></div>
+                            <a href="#" class="primeiro">
+                                <p></p>
+                            </a>
+                            <a href="#" class="primeiro">
+                                <p></p>
+                            </a>
+                            <div class="menu_titulo">
+                                <p>HOT</p>
+                            </div>
+                            <a target="_blank" href="http://www.assine.abril.com.br/portal/assinar/revista-feminina?origem=sr_mdm_menu_mobile&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_mdm_menu_mobile">
+                                <p>ASSINAR REVISTAS</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/resumo-de-novelas" target="_blank">
+                                <p>novelas</p>
+                            </a>
+                            <a href="/estilo-de-vida/horoscopo-previsao-para-os-signos-por-susan-miller">
+                                <p>susan miller</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/horoscopo">
+                                <p>horóscopo</p>
+                            </a>
+                            <a href="http://especial.mdemulher.com.br/premiocontigodetv2015/mobile" target="_blank">
+                                <p>Prêmio Contigo! de TV</p>
+                            </a>
+                            <a href="http://especial.mdemulher.com.br/30-mulheres-com-menos-de-30/" target="_blank" class="ultimo_item">
+                                <p>30 Mulheres</p>
+                            </a>
+                            <div class="menu_titulo">
+                                <p>CANAIS</p>
+                            </div>
+                            <a href="http://m.mdemulher.abril.com.br/beleza/">
+                                <p>beleza<div id="abrAD_button1"></div></p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/cabelos/">
+                                <p>cabelos</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/moda">
+                                <p>moda</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/amor-sexo">
+                                <p>amor e sexo</p>
+                            </a>
+                            <a href="http://bebe.abril.com.br">
+                                <p>bebê</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/familia">
+                                <p>família</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/dieta">
+                                <p>dieta</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/fitness">
+                                <p>fitness</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/estilo-de-vida">
+                                <p>estilo de vida</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/saude">
+                                <p>saúde</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/cultura/">
+                                <p>cultura</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/carreira-dinheiro">
+                                <p>trabalho</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/tv-novelas-famosos">
+                                <p>famosos e tv</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/receitas">
+                                <p>receitas</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/videos" class="ultimo_item">
+                                <p>videos</p>
+                            </a>
+                            <div class="menu_titulo">
+                                <p>MARCAS</p>
+                            </div>
+                            <a href="http://m.mdemulher.abril.com.br/revista/claudia">
+                                <p>claudia</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/elle">
+                                <p>elle</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/contigo">
+                                <p>contigo</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/estilo">
+                                <p>estilo</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/nova">
+                                <p>Nova</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/saude">
+                                <p>Saúde é Vital</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/boaforma">
+                                <p>boa forma</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/anamaria">
+                                <p>anamaria</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/tititi">
+                                <p>tititi</p>
+                            </a>
+                            <a href="http://m.mdemulher.abril.com.br/revista/womenshealth" class="ultimo_item">
+                                <p>Women's Health</p>
+                            </a>
+                            <div class="menu_titulo">
+                                <p>MAIS</p>
+                            </div>
+                            <a href="http://mdemulher.abril.com.br/expediente">
+                                <p>expediente</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/fale-conosco">
+                                <p>fale conosco</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/termos-de-uso">
+                                <p>institucional</p>
+                            </a>
+                            <a href="http://mdemulher.abril.com.br/politica-de-privacidade">
+                                <p>política de privacidade</p>
+                            </a>
+                            <a href="http://www.publiabril.com.br/marcas/mdemulher/internet/informacoes-gerais">
+                                <p>anuncie</p>
+                            </a>
+                            <div id="sociais">
+                                <p>m nas redes:</p>
+                                <div id="sociais_wrapper">
+                                    <a id="facebook" href="http://www.facebook.com/MdeMulher" target="_blank" style="margin-left:17%">
+                                        <img src="http://static.mdemulher.abril.com.br/mobi/images/menu-facebook.gif" />
+                                    </a>
+                                    <a id="twitter" href="http://twitter.com/mdemulher" target="_blank">
+                                        <img src="http://static.mdemulher.abril.com.br/mobi/images/menu-twitter.gif" />
+                                    </a>
+                                    <a id="youtube" href="http://www.youtube.com/tvmdemulher" target="_blank">
+                                        <img src="http://static.mdemulher.abril.com.br/mobi/images/menu-youtube.gif" />
+                                    </a>
+                                    <a id="pinterest" href="http://pinterest.com/mdemulher/" target="_blank">
+                                        <img src="http://static.mdemulher.abril.com.br/mobi/images/menu-pinterest.gif" />
+                                    </a>
+                                    <a id="instagram" href="http://instagram.com/mdemulher/" target="_blank">
+                                        <img src="http://static.mdemulher.abril.com.br/mobi/images/menu-instagram.gif" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="header_shadow"></div>
+                <div id="header">
+                    <div id="busca">
+                        <div id="busca_wrap">
+                            <div id="busca_dummy"></div>
+                            <div style="position: absolute; right: 0px; bottom: 0px; left: 0px; top: 100%;">
+                                <img src="http://static.mdemulher.abril.com.br/mobi/images/busca_aba.png?q=0" style="margin: 0px auto; display: block;">
+                            </div>
+                            <div id="query">
+                                                <!--<form action="" method="POST" name="busca" id="campo_busca" onSubmit="enviaBusca();return false;">
+                            <input type="text" id="texto_busca" name="query" value="encontre sua receita" onFocus="focoBusca('encontre sua receita');" onBlur="blurBusca('encontre sua receita');">
+                            <img src="busca_cancelar.gif" onClick="limpaBusca('encontre sua receita');" ontouchstart="limpaBusca('encontre sua receita');" />
+                        </form>-->
+                        <form action="" method="POST" name="busca" id="campo_busca" onSubmit="enviaBusca();return false;">
+                            <input type="text" id="texto_busca" name="query" value="buscar" onFocus="focoBusca('buscar');" onBlur="blurBusca('buscar');">
+                            <img src="http://static.mdemulher.abril.com.br/mobi/images/busca_cancelar.gif" onClick="limpaBusca('buscar');" ontouchstart="limpaBusca('buscar');" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="header_wrapper">
+                <div id="botao_menu" onClick="abreMenu(event);" ontouchstart="abreMenu(event);">
+                    <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_menu.gif" />
+                </div>
+                <a id="logo_mdemulher" href="http://m.mdemulher.abril.com.br/">
+                    <img src="http://static.mdemulher.abril.com.br/mobi/images/logo_mdemulher_mobile.svg" />
+                </a>
+                <div id="botao_busca" ontouchstart="abreBusca(event);" onclick="abreBusca(event);">
+                    <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_busca.gif" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-main-menu" class="main-menu">
+        <section class="chanels">
+            <h2>Canais</h2>
+            <ul class="menu-main-header clearfix"><li class="first"><a href="http://mdemulher.abril.com.br/beleza">BELEZA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/cabelos">CABELOS</a></li>
+                <li><a href="http://mdemulher.abril.com.br/moda">MODA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/amor-e-sexo">AMOR E SEXO</a></li>
+                <li><a href="http://bebe.abril.com.br/">BEBÊ</a></li>
+                <li><a href="http://mdemulher.abril.com.br/familia">FAMÍLIA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/dieta">DIETA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/fitness">FITNESS</a></li>
+                <li><a href="http://mdemulher.abril.com.br/estilo-de-vida">ESTILO DE VIDA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/saude">SAÚDE</a></li>
+                <li><a href="http://mdemulher.abril.com.br/cultura">CULTURA</a></li>
+                <li><a href="http://mdemulher.abril.com.br/trabalho">TRABALHO</a></li>
+                <li><a href="http://mdemulher.abril.com.br/famosos-e-tv">FAMOSOS E TV</a></li>
+                <li><a href="http://mdemulher.abril.com.br/receitas">RECEITAS</a></li>
+                <li class="last"><a href="http://mdemulher.abril.com.br/especial/videos">VÍDEOS</a></li>
+            </ul>       </section>
+            <section class="hot">
+                <!-- O menu hot possui um label, muito importante ter a classe hot para remover o label -->
+                <h2>Hot</h2>
+                <span class="hot">HOT</span><ul class="hot-links clearfix"><li class="first"><a href="http://mdemulher.abril.com.br/revistas">Revistas</a></li>
+                <li><a href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/previsao-para-os-signos-por-susan-miller">Susan Miller</a></li>
+                <li><a href="http://mdemulher.abril.com.br/especial/o-melhor-do-verao-2015">Verão</a></li>
+                <li><a href="http://mdemulher.abril.com.br/horoscopo">Horóscopo</a></li>
+                <li><a href="http://mdemulher.abril.com.br/familia/de-carona-com-elas">DeCaronaComElas</a></li>
+                <li><a title="Especial de Natal" href="http://mdemulher.abril.com.br/especial/e-natal">Natal</a></li>
+                <li class="last"><a href="http://mdemulher.abril.com.br/especial/reveillon-2015">Réveillon</a></li>
+            </ul>         </section>
+
+            <section class="marcas">
+                <h2>Revistas</h2>
+            </section>
+            <section class="mais last-menu">
+                <!-- muito importante que o ultimo menu antes de sociais tenha a classe last-menu -->
+                <h2>Mais</h2>
+                <ul class="menu-mais-mobile clearfix"><li class="first"><a href="http://www.publiabril.com.br/marcas/mdemulher/internet/informacoes-gerais">ANUNCIE</a></li>
+                    <li><a href="http://mdemulher.abril.com.br/expediente">EXPEDIENTE</a></li>
+                    <li><a href="http://drupal.org">FALE CONOSCO</a></li>
+                    <li><a href="http://mdemulher.abril.com.br/politica-de-privacidade">POLÍTICA DE PRIVACIDADE</a></li>
+                    <li class="last"><a href="http://mdemulher.abril.com.br/termos-de-uso">TERMOS DE USO</a></li>
+                </ul>         </section>
+
+                <section class="sociais1">
+                    <ul class="menu-header-social clearfix"><li class="first"><a href="https://pt-br.facebook.com/MdeMulher">Facebook</a></li>
+                        <li><a href="https://twitter.com/mdemulher">Twitter</a></li>
+                        <li><a href="http://instagram.com/mdemulher">Instagram</a></li>
+                    </ul>         </section>
+                </div>
+        <!-- fim -->
 
         <div class="container">
             <div class="triangles"></div>

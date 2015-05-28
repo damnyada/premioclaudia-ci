@@ -1,0 +1,211 @@
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+	.mobile-main-menu, .main-menu{
+		display:none;
+}
+
+/*Tablet*/
+@media screen and (min-width: 748px) and (max-width: 1023px) {
+
+div#menu-m{position:relative!important}
+
+div#flags,
+div#flags-copy{height:0;position:relative;text-align:center;top:144px;width:100%;z-index:20;}
+div#flags div.wrap,
+div#flags-copy div.wrap{background:none;display:inline-table;height:0;max-width:768px;width:100%;}
+div#flags div.wrap div#conteudo-de,
+div#flags-copy div.wrap div#conteudo-de{background: url('../img/desktop/bandeira.png') no-repeat scroll 0 0;float:left;height:101px;left:1%;max-width:137px;position:absolute;text-align:center;top:0;width:100%;z-index:10;}
+div#flags div.wrap div#conteudo-de p,
+div#flags-copy div.wrap div#conteudo-de p{color:#fff;font-family:'arquitecta medium';font-size:12px;margin-top:18px;text-transform:uppercase;}
+div#flags div.wrap div#conteudo-de img,
+div#flags-copy div.wrap div#conteudo-de img{width: 152px;margin: -20px -20px;}
+div#flags div.wrap div#apresentado-por,
+div#flags-copy div.wrap div#apresentado-por{background:url('../img/desktop/bandeira.png') 0 0 no-repeat;float:right;height:101px;max-width:137px;position:absolute;right:1%;top:0;width:100%;z-index:10;}
+
+div#flags-copy{top:0;display:none}
+div#flags-copy #menu{display:none;}
+
+div#social{position:absolute;z-index:21;top:283px;height:100px;width:50px;}
+div#social div.rede-social{margin-bottom: 10px;height: 50px;width: 50px;background-size: contain;font-family: 'Arquitecta Bold';text-transform: uppercase;box-sizing: border-box;background-repeat: no-repeat;background-color: #fff;font-size: 19px;cursor: pointer;}
+/*div#social div.rede-social:hover{padding: 18px 45px}*/
+div#social div.rede-social .texto{display: none;opacity: 0;margin: 18px 45px;width: 0%;overflow: hidden;}
+div#social .facebook{background-image: url(../img/facebook.svg)}
+div#social .facebook .texto{color:#4060A0;}
+	div#social .facebook:hover {
+	    -webkit-transition: width .3s ease-in-out;
+	    -moz-transition: width .3s ease-in-out;
+	    -o-transition: width .3s ease-in-out;
+	    transition: width .3s ease-in-out;
+
+	    width:200px;
+	}
+	div#social .facebook:hover .texto{
+        -webkit-transition: width 2s ease-in-out;
+	    -moz-transition: width 2s ease-in-out;
+	    -o-transition: width 2s ease-in-out;
+	    transition: width 2s ease-in-out;
+
+	    width:100%;
+		display: inline-block;
+		opacity: 1
+	}
+div#social .twitter{background-image: url(../img/twitter.svg)}
+div#social .twitter .texto{color:#57A8DD;}
+	div#social .twitter:hover {
+	    -webkit-transition: width .3s ease-in-out;
+	    -moz-transition: width .3s ease-in-out;
+	    -o-transition: width .3s ease-in-out;
+	    transition: width .3s ease-in-out;
+
+	    width:115px;
+	}
+	div#social .twitter:hover .texto{
+        -webkit-transition: width 2s ease-in-out;
+	    -moz-transition: width 2s ease-in-out;
+	    -o-transition: width 2s ease-in-out;
+	    transition: width 2s ease-in-out;
+
+	    width:100%;
+		display: inline-block;
+		opacity: 1
+	}
+
+
+/* div#flags-copy{display:none;height:0;position:fixed;text-align:center;top:0;width:100%;z-index:20;}
+div#flags-copy div.wrap{background:none;display:inline-table;height:0;max-width:768px;width:100%;}
+div#flags-copy div.wrap div#conteudo-de{background: url('../img/desktop/bandeira.png') no-repeat scroll 0 0;float:left;height:101px;left:1%;max-width:137px;position:absolute;text-align:center;top:0;width:100%;z-index:10;}
+div#flags-copy div.wrap div#conteudo-de p{color:#fff;font-family:'Arquitecta Medium';font-size:12px;margin-top:18px;text-transform:uppercase;}
+div#flags-copy div.wrap div#conteudo-de img{width: 170px;margin: -15px -20px;}
+div#flags-copy div.wrap div#apresentado-por{background:url('../img/desktop/bandeira.png') 0 0 no-repeat;float:right;height:101px;max-width:137px;position:absolute;right:1%;top:0;width:100%;z-index:10;}
+
+div#flags-copy div#social{height:100px;left:50%;margin:38px 0 0 -235px;position:absolute;width:500px;}
+div#flags-copy div#social a{color:#ff396c;text-indent:9999px;}
+ */
+div#menu{height:17px;position:fixed;right:1%;top:282px;width:28px;z-index:21;float:right}
+div#menu.scrolling{top:282px;position:fixed}
+div#menu div#menu-abrir{background:url("../img/nav-menu.gif") no-repeat scroll 0 0;cursor:pointer;height:17px;position:absolute;right:0;top:0;width:28px;}
+div#menu div#menu-aberto{background:none repeat scroll 0 0 #ff5460;border:3px solid #fff;cursor:default;display:none;position:absolute;right:0;top:0;width:300px;z-index:20;}
+div#menu div#menu-aberto div#menu-fechar{background: url("../img/fechar-como-medir.svg") no-repeat -17px center;cursor: pointer;height: 20px;width: 20px;margin: 20px 20px 0 20px;float:right}
+div#menu div#menu-aberto h4{background: none repeat scroll 0 0;clear: both;color: #fff;cursor: pointer;display: block;float: left;font-family: "Arquitecta Medium";font-size: 13px;letter-spacing: 2px;margin: 16px 0 0 17px;padding: 2px 1px 1px;text-align: left;text-transform: uppercase;}
+div#menu div#menu-aberto h4:link{background:none;color:#fff;font-family:'Arquitecta Medium';font-size:16px;text-transform:uppercase;}
+div#menu div#menu-aberto h4:visited{background:none;color:#fff;font-family:'Arquitecta Medium';font-size:16px;text-transform:uppercase;}
+div#menu div#menu-aberto h4:hover{background:#fff;color:#FF5460;font-family:'Arquitecta Medium';font-size:16px;text-transform:uppercase;}
+div#menu div#menu-aberto h4:active{background:#fff;color:#FF5460;font-family:'Arquitecta Medium';font-size:16px;text-transform:uppercase;}
+div#menu div#menu-aberto h4.first{margin-top:20px;}
+
+div#nav-vertical{display:none;background:url("../img/nav-trace.gif") repeat-y scroll 50% 0;height:427px;position:absolute;right:3px;top:180px;width:20px;}
+div#nav-vertical div.nav-item{background:url("../img/nav-off.gif") repeat-y scroll 0 0;cursor:pointer;height:11px;margin:0 auto 24px;width:11px;}
+div#nav-vertical div.nav-item.i1{background:url("../img/nav-on.gif") repeat-y scroll 0 0;}
+div#nav-vertical div.nav-item.patrocinado{background:url("../img/nav-patrocinio.gif") repeat-y scroll 0 0;}
+div#nav-vertical div.nav-item.last{margin-bottom:0;}
+div#nav-vertical div.nav-mouse{background:url("../img/nav-mouse.gif") no-repeat scroll 0 12px;height:35px;margin:0 auto;width:17px;}
+
+div#back-top{bottom:0;height:1px;position:fixed;text-align:center;width:100%;z-index:20;}
+div#back-top div.wrap{display:inline-table;height:100%;max-height:120px;max-width:1110px;position:relative;width:100%;}
+div#back-top div.wrap div#volta-topo{background: url("../img/desktop/volta-topo.png") no-repeat scroll 0 0;cursor:pointer;height:41px;position:absolute;right:7%;top:0;width:90px;z-index:20;}
+
+div#parallax{height:100vh;overflow-x:hidden;overflow-y:scroll;width:100%;-webkit-overflow-scrolling:touch;}
+
+section.tier{background-color:#FF5460;height:834px;padding:25px 0 0 0;position:relative;text-align:center;width:100%;z-index:10;}
+section.tier.beta{background-color:#aed725;}
+section.tier.ads{background-color:#FF5460;height:600px;width:100%;}
+section.tier div.wrap{display:inline-table;height:100%;max-height:834px;max-width:768px;position:relative;width:100%;}
+section.tier div.wrap div.tooltip{opacity:0;position:absolute;z-index:10;}
+section.tier div.wrap div.tooltip img{display:block;float:left;}
+section.tier div.wrap div.bg-galeria-horizontal{left:-24%;position:absolute;top:5px;z-index:-1;}
+section.tier div.wrap div.bg-galeria-horizontal img{width:120%;}
+
+/** ABRE **/
+section#tier-1{height:860px;overflow:hidden;margin:0;padding:0}
+section#tier-1 div.wrap{background:none;height:860px;max-height:860px;}
+section#tier-1 div.wrap div#wrap-bg-abre{height:512px;left:50%;margin-left:-298px;position:absolute;top:-50px;width:698px;z-index:0;}
+section#tier-1 div.wrap div#wrap-bg-abre img{display:block;left:130px;margin:0 auto;max-width:698px;position:relative;top:226px;}
+section#tier-1 div.wrap h1{color:#fff;font-family:'Grumpy Black';font-size:76px;margin:33px 0 0;position:relative;width:100%;z-index:1;}
+section#tier-1 div.wrap h2{bottom:0;color:#fff;font-family:"Arquitecta Light";font-size:26px;letter-spacing:1px;line-height:32px;margin:426px auto 0;opacity:0;position:relative;width:90%;z-index:1;}
+section#tier-1 div.wrap div#abre-proximo{background:url("../img/seta-baixo-proximo.gif") no-repeat scroll 0 0;bottom:0;cursor:pointer;height:47px;left:50%;margin:0 auto 0 -49px;position:absolute;width:101px;}
+
+/** tooltips **/
+section#tier-1 div.wrap div.tooltip.comecar{bottom:10px;height:52px;left:190px;width:118px;}
+section#tier-1 div.wrap div.tooltip.por-categoria{height:54px;right:40px;top:17px;width:119px;}
+section#tier-3 div.wrap div.tooltip.leia-mais{height:43px;left:6%;top:200px;width:91px;}
+section#tier-4 div.wrap div.tooltip.veja-mais-modelos{height:58px;right:34px;top:290px;width:86px;}
+
+/** PUBLICIDADES **/
+section#tier-2.parallax_group.tier.ads{height:600px;margin-top:0;overflow:hidden;padding:120px 0 0;position:relative;z-index:2;}
+section#tier-2.parallax_group.tier.ads .parallax_layer{margin:0 auto;max-width:1110px;width:100%;}
+section#tier-2.parallax_group.tier.ads .parallax_layer.back{max-width:1000px;overflow-x:hidden;width:100%;z-index:3;}
+section#tier-2.parallax_group.tier.ads .parallax_layer.back img{display:block;left:50%;margin:-80px auto 0 -555px;max-width:1110px;position:relative;}
+section#tier-12.parallax_group.tier.ads{height:600px;margin-top:120px;overflow:hidden;padding:0;position:relative;z-index:2;}
+section#tier-12.parallax_group.tier.ads .parallax_layer{margin:0 auto;max-width:1110px;width:100%;}
+section#tier-12.parallax_group.tier.ads .parallax_layer.back{max-width:1000px;overflow-x:hidden;width:100%;z-index:3;}
+section#tier-12.parallax_group.tier.ads .parallax_layer.back img{display:block;left:50%;margin:-80px auto 0 -555px;max-width:1110px;position:relative;}
+
+section#tier-2.parallax_group.tier.ads div#abrAD_parallax1{background:url('../img/parallax-nova.jpg') 50% 0 no-repeat;height:800px;position:relative;z-index:2;}
+section#tier-12.parallax_group.tier.ads div#abrAD_parallax2{background:url('../img/parallax-nova.jpg') 50% 0 no-repeat;height:800px;position:relative;z-index:2;}
+
+section#tier-14{height: 888px;}
+
+/** GALERIAS HORIZONTAIS **/
+section.tier div.wrap div.proximo{background:url("../img/desktop/proximo.png") no-repeat scroll center 20px rgba(0, 0, 0, 0);bottom:20px;color:#fff;cursor:pointer;font-family:'Arquitecta Light';font-size:12px;height:47px;left:50%;letter-spacing:2px;margin:0 auto 0 -125px;position:absolute;text-transform:uppercase;width:250px;z-index:4;}
+section.tier div.wrap h1{color:#fff;font-family:'Grumpy Black';font-size:76px;letter-spacing:3px;margin:0;max-width:768px;width:100%;z-index:1;}
+section.tier div.wrap{max-width:768px;width:100%;}
+
+/** COMO MEDIR **/
+section#tier-7 div.wrap{background:none;display:inline-block;}
+section#tier-7 div.wrap div.wrap-destaque{margin:80px auto 50px;max-width:768px;opacity:0;text-align:center;width:100%;z-index:0;}
+section#tier-7 div.wrap div.wrap-destaque img{margin:0 4%;max-width:768px;width:90%;}
+section#tier-7 div.wrap h1{color:#fff;font-family:'Grumpy Black';font-size:58px;margin:0;max-width:768px;position:relative;width:100%;z-index:1;}
+section#tier-7 div.wrap h2{color:#fff;font-family:"Arquitecta Light";font-size:22px;line-height:26px;margin:0 1%;max-width:768px;width:98%;z-index:1;}
+section#tier-7 div.wrap div#comecar{border:2px solid #fff;color:#fff;cursor:pointer;font-family:"Arquitecta Bold";font-size:18px;height:36px;letter-spacing:3px;margin:50px auto 0;padding:18px 12px 0;width:130px;}
+section#tier-7 div.wrap div#comecar:hover{background-color:#fff;color:#FF5460;cursor:pointer;font-family:"Arquitecta Light";font-size:18px;height:36px;margin:50px auto 0;width:130px;}
+section.tier div.wrap div.tier-proximo{background:url("../img/desktop/seta-baixo-proximo.png") no-repeat scroll 0 0;bottom:12px;cursor:pointer;height:47px;left:50%;margin:0 auto 0 -49px;opacity:0;position:absolute;width:101px;}
+section#tier-7 div.medir-imagem.busto{width:450px;}
+section#tier-7 div.medir-texto.busto{width:570px;}
+
+/** GALERIAS HORIZONTAIS **/
+div.next-nav-horizontal{background:url('../img/desktop/next-nav-horizontal.png') 0 0 no-repeat;cursor:pointer;height:81px;position:absolute;right:1%;top:378px;width:42px;z-index:10;}
+div.prev-nav-horizontal{background:url('../img/desktop/prev-nav-horizontal.png') 0 0 no-repeat;cursor:pointer;height:81px;left:1%;position:absolute;top:378px;width:42px;z-index:10;}
+
+div.slide-horizontal{height:700px;margin:0 auto;max-width:768px;position:absolute;top:142px;width:100%;}
+div.slide-horizontal div.slide{height:700px;max-width:768px;position:relative;width:100%;}
+div.slide-horizontal div.slide div.item{opacity:0;position:absolute;width:24%;}
+div.slide-horizontal div.slide div.item img{display:block;margin:0 auto;padding:0;width:92%;}
+div.slide-horizontal div.slide div.item p{background-color:#FF5460;border:2px solid #fff;color:#fff;cursor:pointer;font-family:"Arquitecta Bold";font-size:16px;height:auto;line-height:20px;margin:-6px auto 0;padding:9px 0;text-transform:uppercase;width:90%;}
+div.slide-horizontal div.slide div.item p:hover{background-color:#fff;color:#FF5460;}
+div.item-0{left:15.5%;top:32px;}
+div.item-1{right:15.5%;top:32px;}
+div.item-2{left:38.5%;top:214px;}
+div.item-3{left:15.5%;top:386px;}
+div.item-4{right:15.5%;top:386px;}
+
+
+
+/** creditos **/
+section#tier-15 div.wrap{background:none;}
+section#tier-15 div.wrap img{display:block;margin:100px auto 90px;}
+section#tier-15 div.wrap p{color:#fff;font-family:'Arquitecta Light';font-size:20px;letter-spacing:1px;margin:12px;}
+section#tier-15 div.wrap p.primeiro{margin-top:125px;}
+section#tier-15 div.wrap p span{color:#fff;font-family:'Grumpy Black';font-size:20px;letter-spacing:1px;}
+section#tier-15 div.wrap p.fontes{color:#fff;display:block;font-family:"Arquitecta Medium";font-size:16px;letter-spacing:0;line-height:24px;margin:0 2% 20px;width:96%;}
+
+
+
+span.medium-italic{font-family:'Arquitecta Medium Italic';}
+
+/** MAPA z-index
+0 ~ 1: normal
+4: itens fixos - navegação vertical
+8: itens fixos - navegação horizontal
+
+**/
+	div#orientacao.off{background:none transparent;display:none;height:0;width:0;z-index:-100;}
+	div#orientacao.off div.aviso{}
+	div#orientacao.off div.aviso img{}
+	div#orientacao.off div.aviso p{}
+
+	div#orientacao.on{background-color:#ff5460;bottom:0;display:block;height:100%;left:0;position:fixed;right:0;top:0;width:100%;z-index:100;}
+	div#orientacao.on div.aviso{display:block;height:400px;left:50%;margin:-200px 0 0 -310px;position:absolute;text-align:center;top:50%;width:620px;}
+	div#orientacao.on div.aviso img{clear:both;display:block;margin:0 auto;}
+	div#orientacao.on div.aviso p{clear:both;color:#fff;display:block;font-family:"Arquitecta Light";font-size:26px;letter-spacing:1px;line-height:32px;margin:40px auto 0;width:600px;}
+
+}
