@@ -241,7 +241,7 @@ a {
     right: 13px;
 }
 
-#menu-m {
+#menu-mdm {
     display: none;
 }
 
@@ -351,7 +351,7 @@ a {
         right: 13px;
     }
 
-    #menu-m {
+    #menu-mdm {
         display: none;
     }
       
@@ -448,6 +448,9 @@ a {
 
 /*DESKTOP*/
 @media screen and (min-width: 1024px) {
+    #menu-m{
+        display:none;
+    }
     #logo{
         width: 30.4em;
         height: 9.50em;
@@ -589,11 +592,11 @@ a {
     }
 
     /* MENU */
-    #menu-m {
+    #menu-mdm {
         display: block;
     }
 
-    div#menu-m {
+    div#menu-mdm {
         background: url('../img/menu-borda.png') 0 144px repeat-x;
         height: 149px;
         position: absolute;
@@ -601,25 +604,25 @@ a {
         top: 0px;
      }
      
-    div#menu-m div#menu-bg {
+    div#menu-mdm div#menu-bg {
         background-color: #fff;
         height: 144px;
         width: 100%;
      }
  
-    div#menu-m div#publicidade-wrap {
+    div#menu-mdm div#publicidade-wrap {
         height: 90px;
         padding-top: 10px;
         width: 100%;
      }
  
-    div#menu-m div#abrAD_leaderboard1 {
+    div#menu-mdm div#abrAD_leaderboard1 {
         height: 90px;
         text-align: center;
         width: 100%;
      }
  
-    div#menu-m div#menu-wrap {
+    div#menu-mdm div#menu-wrap {
         background-color: #fff;
         display: block;
         height: 44px;
@@ -627,7 +630,7 @@ a {
         margin: 0 auto;
         width: 1024px;
      }
-    div#menu-m div#menu-wrap ul#menu-m {
+    div#menu-mdm div#menu-wrap ul#menu-mdm {
         -moz-padding-start: 0;
         display: block;
         float: left;
@@ -637,7 +640,7 @@ a {
         position: relative;
     }
 
-    div#menu-m div#menu-wrap ul#menu-m li {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li {
         display: block;
         float: left;
         font-family: "arquitecta_blackblack";
@@ -648,7 +651,7 @@ a {
         text-transform: uppercase;
     }
     
-    div#menu-m div#menu-wrap ul#menu-m li#menu-first {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li#menu-first {
         background: url("http://mdemulher.abril.com.br/sites/mdemulher/themes/mdemulher/images/logos/logo_mdemulher.png") 5px 0 / 550% no-repeat;
         height: 35px;
         margin-left: 0;
@@ -658,11 +661,11 @@ a {
         width: 35px;
     }
      
-    div#menu-m div#menu-wrap ul#menu-m li#menu-second {margin-left: 13px;}
+    div#menu-mdm div#menu-wrap ul#menu-mdm li#menu-second {margin-left: 13px;}
      
-    div#menu-m div#menu-wrap ul#menu-m li#menu-last {margin-right: 0;}
+    div#menu-mdm div#menu-wrap ul#menu-mdm li#menu-last {margin-right: 0;}
      
-    div#menu-m div#menu-wrap ul#menu-m li a:link {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li a:link {
         color: #393939;
         display: block;
         float: left;
@@ -671,7 +674,7 @@ a {
         width: 100%;
     }
 
-    div#menu-m div#menu-wrap ul#menu-m li a:visited {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li a:visited {
         color: #393939;
         display: block;
         float: left;
@@ -680,7 +683,7 @@ a {
         width: 100%;
     }
 
-    div#menu-m div#menu-wrap ul#menu-m li a:hover {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li a:hover {
         color: #ff396c;
         display: block;
         float: left;
@@ -689,7 +692,7 @@ a {
         width: 100%;
     }
 
-    div#menu-m div#menu-wrap ul#menu-m li a:active {
+    div#menu-mdm div#menu-wrap ul#menu-mdm li a:active {
         color: #ff396c;
         display: block;
         float: left;
@@ -698,11 +701,11 @@ a {
         width: 100%;
     }
 
-    div#menu-m div#menu-wrap ul#menu-m li#menu-last a:link {color: #ff396c;}
+    div#menu-mdm div#menu-wrap ul#menu-mdm li#menu-last a:link {color: #ff396c;}
 
-    div#menu-m div#menu-wrap ul#menu-m li#menu-last a:hover {color: #393939}
+    div#menu-mdm div#menu-wrap ul#menu-mdm li#menu-last a:hover {color: #393939}
  
-    div#menu-m div#menu-wrap div#menu-busca {
+    div#menu-mdm div#menu-wrap div#menu-busca {
         background: url("http://mdemulher.abril.com.br/sites/mdemulher/themes/mdemulher/images/sprite-header.png") 0 -84px no-repeat;
         float: left;
         height: 20px;
