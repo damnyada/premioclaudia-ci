@@ -86,17 +86,13 @@ table {
 }
 
 html {
-    background-color: #f6f5f1!important;
-    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* Standard syntax */
+    background-color: #f6f5f1;
+    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eceade 1%, #f6f5f1 40%); /* Standard syntax */
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-body {
-    background-color: transparent!important;
 }
 
 .capital {
@@ -141,7 +137,7 @@ a {
     position: absolute;
     width: 100%;
     height: 300px;
-    background: url(../img/triangulos.svg) repeat-x top;
+    background: url(../img/triangulos.svg) no-repeat top;
     background-size: auto 163px;
     z-index: -1;
 }
@@ -251,11 +247,11 @@ a {
 
 @media screen and (min-width: 450px) and (max-width: 572px) {
     .candidato{
-        max-width: 420px;
+        max-width: 459px;
     }
     #logo {
         width: 270px;
-        margin-top:76px;
+        margin-top:-9px;
         height: 69px;
     }
     .index ul li {
@@ -265,6 +261,12 @@ a {
     .ponto{
         background-size: 3px;
         padding: 8px 5px;
+    }
+    .candInfo{
+        width: 72%;
+    }
+    .triangles{
+        background-size: 500px;
     }
 }
 /*TABLET*/
@@ -321,7 +323,15 @@ a {
         padding-top: 6%;
     }
 
-
+    .vejaMais{
+        width: 201px;
+        height: 21px;
+        position: absolute;
+        top: 81%;
+        font-size: 1em;
+        letter-spacing: 1.1px;
+        margin-left: 7px;
+    }
 
 
     .candFoto img {
@@ -414,7 +424,7 @@ a {
         margin: 22px 20px 116px;
         position:relative;
         top: 81px;
-        min-height: 359px;
+        min-height: 386px;
         width: 24%;
         cursor: pointer;
         display: inline-block;
@@ -555,7 +565,7 @@ a {
         margin: 60px 20px 116px;
         position:relative;
         top: 81px;
-        height: 265px;
+        height: 301px;
         width: 28%;
         cursor: pointer;
         display: inline-block;
@@ -606,6 +616,7 @@ a {
         position: absolute;
         width: 100%;
         top: 0px;
+        z-index: 1;
      }
      
     div#menu-mdm div#menu-bg {
