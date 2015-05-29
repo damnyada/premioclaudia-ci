@@ -4,10 +4,16 @@
         <title>Prêmio Claudia - 20 Anos</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<<<<<<< HEAD
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
         <!-- <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/mobile-menu.css"> -->
+=======
+        <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/animate.css">
+>>>>>>> 32fcbe4d37a617afa4eba0f260aed941a393b7c5
         <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/mobile-menu.css">
+        <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/votaclaudia.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="../assets/premioclaudia/js/script_menu_m.js?v=2.0"></script>
     </head>
@@ -262,46 +268,7 @@
                             <li class="ponto"></li>
                         </ul>
                     </nav>
-                    <div class="categoria">
-                        <h1 class="catNome">Trabalho social</h1>
-                        <div class="candidatos-wrapper" data-categoria="8887099">
-                            <div class="candidato" data-voto="40441567">
-                                <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-dagmar-garroux.png" alt=""></img>
-                                </div>
-                                <div class="candInfo">
-                                    <h2>Dagmar Garroux</h2>
-                                    <p>Pedagoga abre portas para que jovens em situação de risco social superem limitações</p>
-                                    <a class="vejaMais" href="#">»Veja mais</a>
-                                </div>
-                                <div class="coracao"></div>
-                            </div>
-
-                            <div class="candidato" data-voto="40441568">
-                                <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-juliana-de-faria.png" alt=""></img>
-                                </div>
-                                <div class="candInfo">
-                                    <h2>Juliana de Faria</h2>
-                                    <p>Lutar contra o assédio sexual que mulheres sofrem diariamente é o trabalho da jornalista</p>
-                                    <a class="vejaMais" href="#">»Veja mais</a>
-                                </div>
-                                <div class ="coracao"></div>
-                            </div>
-
-                            <div class="candidato" data-voto="40441569">
-                                <div class="candFoto">
-                                    <img src="/assets/premioclaudia/img/candidatos/trabalho-social-sula-sevillis.png" alt=""></img>
-                                </div>
-                                <div class="candInfo">
-                                    <h2>Sula Sevillis</h2>
-                                    <p>Radialista comanda programa que ajuda a conectar pessoas de áreas remotas da Amazônia</p>
-                                    <a class="vejaMais" href="#">»Veja mais</a>
-                                </div>
-                                <div class="coracao"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="categoria"></div>
                 </main>
             </div>
         </div>
