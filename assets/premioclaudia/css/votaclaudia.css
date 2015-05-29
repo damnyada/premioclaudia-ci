@@ -531,7 +531,6 @@ a {
 
     .container{
         margin: auto;
-        top: 150px;  
         letter-spacing: 2px;
         line-height: 1.3em;          
     }
@@ -624,7 +623,7 @@ a {
     div#menu-mdm {
         background: url('../img/menu-borda.png') 0 144px repeat-x;
         height: 149px;
-        position: absolute;
+        position: relative;
         width: 100%;
         top: 0px;
         z-index: 1;
