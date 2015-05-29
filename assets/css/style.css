@@ -206,6 +206,10 @@ div.menu {
 
 }
 
+div#header_shadow, div#header {
+	position: absolute !important;
+}
+
 
 
 /*.sprite-menu
