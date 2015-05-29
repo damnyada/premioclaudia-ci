@@ -206,6 +206,7 @@ a {
     width: 60%;
     vertical-align: top;
     padding-top: 3%;
+    padding-bottom: 3%;
     padding-right: 7px;
     text-align: left;
 }
@@ -372,7 +373,7 @@ a {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 748px) and (max-width: 1023px) {
+@media screen and (min-width: 748px) and (max-width: 1025px) {
 
     #logo{
         width: 400px;
@@ -461,7 +462,7 @@ a {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1026px) {
     #menu-m{
         display:none;
     }
