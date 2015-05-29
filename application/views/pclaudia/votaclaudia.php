@@ -4,9 +4,8 @@
         <title>Prêmio Claudia - 20 Anos</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
-        <!-- <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css"> -->
+        <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
         <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/mobile-menu.css">
         <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/votaclaudia.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
