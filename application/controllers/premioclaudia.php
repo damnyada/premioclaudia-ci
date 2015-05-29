@@ -66,9 +66,11 @@ class premioclaudia extends CI_Controller {
 
 //            $usercode = '$P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/';
 			$usercode = $dt->pdResponse->userCode;
-			$categorias = array("categorias", "8887099");
 
-			for ($i = 1; $i <= 1; $i++) {
+            $categoriasLiberadas = 2;
+			$categorias = array("categorias", "8887099", "8887102");
+
+			for ($i = 1; $i <= $categoriasLiberadas; $i++) {
 				$curl_data = '{"pdRequest": {
 				    "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
 				    "userCode": "'.$usercode.'",
