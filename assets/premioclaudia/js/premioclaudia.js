@@ -3,10 +3,8 @@ var votos = new Array(categoriasLiberadas);
 var categoria = 1;
 
 function escolheCandidato() {
-    $('.coracao').removeClass('animated bounceIn');
-    $('.coracao').css("background", "url('../assets/premioclaudia/img/coracao-preto.svg') no-repeat center / contain");
-    $(this).children(".coracao").css("background", "url('../assets/premioclaudia/img/coracao-vermelho.svg') no-repeat center / contain");
-    $(this).children(".coracao").addClass('animated bounceIn');
+    $('.coracao').removeClass('vermelho animated bounceIn');
+    $(this).children(".coracao").addClass('vermelho animated bounceIn');
 
     $('.candidato').removeClass('escolhido');
     $(this).addClass('escolhido');
@@ -19,11 +17,10 @@ function armazenaVoto(categoria) {
 }
 
 function paginador(categoria) {
-    $(".categoria").load("pagina?categoria="+categoria+" .categoria-wrapper");
-    $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoria-1]+"']").addClass("escolhido");
+    $(".categoria").load("pagina?categoria="+categoria+" .categoria-wrapper", function() {
+        $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoria-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
+    });
 
-    $(".active").removeClass("active").addClass("idle");
-//    $(this).removeClass("idle").addClass("active");
 }
 
 $(document).ready(function(){
@@ -32,9 +29,12 @@ $(document).ready(function(){
 
     $('.categoria').on('click', ".candidato", escolheCandidato);
 
-    $('.idle').on('click', function() {
+    $('.catIndex').on('click', function() {
         categoria = parseInt($(this).text(), 10);
         paginador(categoria);
+
+        $(".catIndex").removeClass("active");
+        $(".index").find(".catIndex:contains('"+categoria+"')").addClass("active");
     });
 
 //    $("#logo").on('click', function() {
