@@ -31,7 +31,7 @@ class premioclaudia extends CI_Controller {
 
 	public function catDesktop(){
 		$categoria = $_GET['categoria'];
-		$this->load->view('pcontigo/pag'.$categoria);
+		$this->load->view('pclaudia/candidatos/cand'.$categoria);
 	}
 
 	public function envia(){

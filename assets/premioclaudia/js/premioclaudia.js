@@ -18,27 +18,37 @@ function armazenaVoto(categoria) {
     votos[categoria - 1] = $(".candidatos-wrapper").find(".escolhido").attr("data-voto");
 }
 
-function paginador() {
-	categoria = parseInt($(this).text(), 10);
-//    console.log("categoria " + categoria);
+function paginador(categoria) {
+    $(".categoria").load("pagina?categoria="+categoria+" .categoria-wrapper");
+    $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoria-1]+"']").addClass("escolhido");
+
+    $(".active").removeClass("active").addClass("idle");
+//    $(this).removeClass("idle").addClass("active");
 }
 
 $(document).ready(function(){
-    $('.candidato').on('click', escolheCandidato);
-    $('.idle').on('click', paginador);
 
-    $("#logo").on('click', function() {
+    paginador(categoria);
 
-        $.ajax({
-            type : 'post',
-            dataType : 'json',
-            url : '/pclaudia/envia',
-            data : {c1: votos[0]},
-            success: function(response){
-                console.log("OK");
-            }
-        });
+    $('.categoria').on('click', ".candidato", escolheCandidato);
+
+    $('.idle').on('click', function() {
+        categoria = parseInt($(this).text(), 10);
+        paginador(categoria);
     });
+
+//    $("#logo").on('click', function() {
+//
+//        $.ajax({
+//            type : 'post',
+//            dataType : 'json',
+//            url : '/pclaudia/envia',
+//            data : {c1: votos[0], c2: votos[1]},
+//            success: function(response){
+//                console.log("OK");
+//            }
+//        });
+//    });
 });
 
 
