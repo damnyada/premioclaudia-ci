@@ -88,15 +88,11 @@ table {
 html {
     height: 100%;
     min-height: 100%;
-    background-color: #f6f5f1!important;
-    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* Standard syntax */
-}
-
-body {
-    background-color: transparent!important;
+    background-color: #f6f5f1;
+    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eceade 1%, #f6f5f1 40%); /* Standard syntax */
 }
 
 .capital {
@@ -121,7 +117,7 @@ a {
     text-decoration: none;
 }
 
-#parallax {
+#menu-m {
     display: none;
 }
 
