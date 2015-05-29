@@ -104,8 +104,7 @@ html {
     letter-spacing: 1px;
 }
 
-.idle {
-    color: black;
+.catIndex {
     cursor: pointer;
 }
 
@@ -115,6 +114,7 @@ html {
 
 .active {
     color: #c2081f;
+    cursor: default;
 }
 
 a {
@@ -240,6 +240,10 @@ a {
     position: absolute;
     top: 81%;
     right: 13px;
+}
+
+.vermelho {
+    background: url('../img/coracao-vermelho.svg') no-repeat center / contain;
 }
 
 #menu-mdm {

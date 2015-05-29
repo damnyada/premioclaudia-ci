@@ -247,9 +247,9 @@
                     <nav class="index">
                         <ul>
                             <li class="ponto"></li>
-                            <li class="active">1</li>
+                            <li class="catIndex active">1</li>
                             <li class="ponto"></li>
-                            <li class="idle">2</li>
+                            <li class="catIndex">2</li>
                             <li class="ponto"></li>
                             <li class="inactive">3</li>
                             <li class="ponto"></li>
