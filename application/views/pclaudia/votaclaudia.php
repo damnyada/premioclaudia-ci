@@ -6,27 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/votaclaudia.css">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/mobile-menu.css">
+        <!-- <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/mobile-menu.css"> -->
         <link rel="stylesheet" type="text/css" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="../assets/premioclaudia/js/script_menu_m.js?v=2.0"></script>
-
-   <!--  <link href="css/style.2.0.smartphone.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/menu-m/menu-m.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="css/menu-m/menu-m-smartphone.css" media="all" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="http://static.mdemulher.abril.com.br/mobi/css/style.css">
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery.cycle.all.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.mobile-1.3.2.min.js"></script>
-    
-    <script src="js/guia.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, target-densityDpi=device-dpi" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" /> -->
     </head>
     <body>
 
@@ -64,12 +47,8 @@
 
         <!-- MENU MOBILE -->
 
-        <div id="parallax">
-        <section class="tier topo_site">
-            <!-- <div id="social" class="mobile">
-                <a href="https://twitter.com/share?via=mdemulher&text=Guia do sutiã: você sempre quis, mas ninguém tinha feito. Ainda. http://bit.ly/1Dv26b2 via @mdemulher" data-via="mdemulher" data-text="Guia do sutiã: você sempre quis, mas ninguém tinha feito. Ainda. http://bit.ly/1Dv26b2 via @mdemulher"><div class="twitter rede-social"><span class="texto">Tweet</span></div></a>
-                <div class="facebook rede-social"><span class="texto">Compartilhar</span></div>
-            </div> -->
+        <!-- <div id="parallax"> -->
+        <!-- <section class="tier topo_site"> -->
             <div id="menu-m">
                 <div id="spacer_conteudo">
                     <div id="spacer_conteudo_wrapper">
@@ -234,34 +213,29 @@
                                 <img src="http://static.mdemulher.abril.com.br/mobi/images/busca_aba.png?q=0" style="margin: 0px auto; display: block;">
                             </div>
                             <div id="query">
-                                                <!--<form action="" method="POST" name="busca" id="campo_busca" onSubmit="enviaBusca();return false;">
-                            <input type="text" id="texto_busca" name="query" value="encontre sua receita" onFocus="focoBusca('encontre sua receita');" onBlur="blurBusca('encontre sua receita');">
-                            <img src="busca_cancelar.gif" onClick="limpaBusca('encontre sua receita');" ontouchstart="limpaBusca('encontre sua receita');" />
-                        </form>-->
-                        <form action="" method="POST" name="busca" id="campo_busca" onSubmit="enviaBusca();return false;">
-                            <input type="text" id="texto_busca" name="query" value="buscar" onFocus="focoBusca('buscar');" onBlur="blurBusca('buscar');">
-                            <img src="http://static.mdemulher.abril.com.br/mobi/images/busca_cancelar.gif" onClick="limpaBusca('buscar');" ontouchstart="limpaBusca('buscar');" />
-                        </form>
+                                <form action="" method="POST" name="busca" id="campo_busca" onSubmit="enviaBusca();return false;">
+                                    <input type="text" id="texto_busca" name="query" value="buscar" onFocus="focoBusca('buscar');" onBlur="blurBusca('buscar');">
+                                    <img src="http://static.mdemulher.abril.com.br/mobi/images/busca_cancelar.gif" onClick="limpaBusca('buscar');" ontouchstart="limpaBusca('buscar');" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                <div id="header_wrapper">
+                    <div id="botao_menu" onClick="abreMenu(event);" ontouchstart="abreMenu(event);">
+                        <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_menu.gif" />
+                    </div>
+                    <a id="logo_mdemulher" href="http://m.mdemulher.abril.com.br/">
+                        <img src="http://static.mdemulher.abril.com.br/mobi/images/logo_mdemulher_mobile.svg" />
+                    </a>
+                    <div id="botao_busca" ontouchstart="abreBusca(event);" onclick="abreBusca(event);">
+                        <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_busca.gif" />
                     </div>
                 </div>
-            </div>
-            <div id="header_wrapper">
-                <div id="botao_menu" onClick="abreMenu(event);" ontouchstart="abreMenu(event);">
-                    <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_menu.gif" />
-                </div>
-                <a id="logo_mdemulher" href="http://m.mdemulher.abril.com.br/">
-                    <img src="http://static.mdemulher.abril.com.br/mobi/images/logo_mdemulher_mobile.svg" />
-                </a>
-                <div id="botao_busca" ontouchstart="abreBusca(event);" onclick="abreBusca(event);">
-                    <img src="http://static.mdemulher.abril.com.br/mobi/images/botao_busca.gif" />
                 </div>
             </div>
-        </div>
-    </div>
-    
-
-        <!-- fim menu mobile-->
-
+<!--         </section> -->
+        <!-- </div> -->
+    <!-- fim menu mobile-->
         <div class="container">
             <div class="triangles"></div>
             <div class="wrapper">
