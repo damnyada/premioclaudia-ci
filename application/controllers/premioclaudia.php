@@ -37,7 +37,6 @@ class premioclaudia extends CI_Controller {
 	public function envia(){
 
 		if($_POST['voto'] && $_POST['categoria']){
-//            var_dump ($_POST); die();
 			$curl_data_connect = json_encode(
 			    array(
 			            'pdInitiate' => array(
@@ -49,8 +48,6 @@ class premioclaudia extends CI_Controller {
 			        )
 			    );
 
-//            echo $curl_data_connect; die();
-
 			$ch = curl_init();
 			curl_setopt( $ch, CURLOPT_URL, "https://api.polldaddy.com/" );
 			curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
@@ -60,17 +57,9 @@ class premioclaudia extends CI_Controller {
 			$data = curl_exec( $ch );
 			curl_close( $ch );
 
-//            echo ($ch); die();
 			$dt = json_decode( $data );
-
-
-//            $usercode = '$P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/';
 			$usercode = $dt->pdResponse->userCode;
 
-//            $categoriasLiberadas = 2;
-//			$categorias = array("categorias", "8887099", "8887102");
-//
-//			for ($i = 1; $i <= $categoriasLiberadas; $i++) {
             $curl_data = '{"pdRequest": {
                 "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
                 "userCode": "'.$usercode.'",
@@ -104,7 +93,6 @@ class premioclaudia extends CI_Controller {
             curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
             $data = curl_exec( $ch );
             curl_close( $ch );
-//			}
 
 			echo json_encode(array('resp' => 'yep'));
 		}
