@@ -36,7 +36,7 @@ class premioclaudia extends CI_Controller {
 
 	public function envia(){
 
-		if($_POST['c1']){
+		if($_POST['voto'] && $_POST['categoria']){
 //            var_dump ($_POST); die();
 			$curl_data_connect = json_encode(
 			    array(
@@ -77,7 +77,7 @@ class premioclaudia extends CI_Controller {
                 "demands": {
                     "demand": {
                         "vote": {
-                           "answers_text": "'.$_POST[$voto].'",
+                           "answers_text": "'.$_POST['voto'].'",
                            "other_text": "",
                            "url": "",
                            "ip": "",
@@ -87,7 +87,7 @@ class premioclaudia extends CI_Controller {
                                    "value": "me@polldaddy.com"
                                }
                            },
-                           "poll_id": "'.$_POST[$categoria].'",
+                           "poll_id": "'.$_POST['categoria'].'",
                            "widget_id": "0",
                            "cookie": "0"
                        },
