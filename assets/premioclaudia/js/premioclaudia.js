@@ -1,8 +1,10 @@
 $(document).ready(function(){
 
+    var categoriasCod = ["8887099", "8887102"]
     var categoriasLiberadas = 2;
     var votos = new Array(categoriasLiberadas);
-    var categoria = 1;
+
+    var categoriaAtual = 1;
 
     function escolheCandidato() {
         $('.coracao').removeClass('vermelho animated bounceIn');
@@ -11,44 +13,42 @@ $(document).ready(function(){
         $('.candidato').removeClass('escolhido');
         $(this).addClass('escolhido');
 
-        armazenaVoto(categoria);
-    }
+        armazenaVoto(categoriaAtual);
 
-    function armazenaVoto(categoria) {
-        votos[categoria - 1] = $(".candidatos-wrapper").find(".escolhido").attr("data-voto");
-    }
-
-    function paginador(categoria) {
-        $(".categoria").load("pagina?categoria="+categoria+" .categoria-wrapper", function() {
-            $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoria-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
+        $.ajax({
+            type : 'post',
+            dataType : 'json',
+            url : '/pclaudia/envia',
+            data : {categoria: categoriasCod[categoriaAtual-1], voto: votos[categoriaAtual-1]},
+            success: function(response){
+                console.log("OK");
+            }
         });
 
     }
 
-    paginador(categoria);
+    function armazenaVoto(categoriaAtual) {
+        votos[categoriaAtual - 1] = $(".candidatos-wrapper").find(".escolhido").attr("data-voto");
+    }
+
+    function paginador(categoriaAtual) {
+        $(".categoria").load("pagina?categoria="+categoriaAtual+" .categoria-wrapper", function() {
+            $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoriaAtual-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
+        });
+
+    }
+
+    paginador(categoriaAtual);
 
     $('.categoria').on('click', ".candidato", escolheCandidato);
 
     $('.catIndex').on('click', function() {
-        categoria = parseInt($(this).text(), 10);
-        paginador(categoria);
+        categoriaAtual = parseInt($(this).text(), 10);
+        paginador(categoriaAtual);
 
         $(".catIndex").removeClass("active");
-        $(".index").find(".catIndex:contains('"+categoria+"')").addClass("active");
+        $(".index").find(".catIndex:contains('"+categoriaAtual+"')").addClass("active");
     });
-
-//    $("#logo").on('click', function() {
-//
-//        $.ajax({
-//            type : 'post',
-//            dataType : 'json',
-//            url : '/pclaudia/envia',
-//            data : {c1: votos[0], c2: votos[1]},
-//            success: function(response){
-//                console.log("OK");
-//            }
-//        });
-//    });
 });
 
 

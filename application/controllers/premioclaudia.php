@@ -67,44 +67,44 @@ class premioclaudia extends CI_Controller {
 //            $usercode = '$P$BDx5QDV8qqVvw6Of3y692Fh0AjFU8d\/';
 			$usercode = $dt->pdResponse->userCode;
 
-            $categoriasLiberadas = 2;
-			$categorias = array("categorias", "8887099", "8887102");
+//            $categoriasLiberadas = 2;
+//			$categorias = array("categorias", "8887099", "8887102");
+//
+//			for ($i = 1; $i <= $categoriasLiberadas; $i++) {
+            $curl_data = '{"pdRequest": {
+                "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
+                "userCode": "'.$usercode.'",
+                "demands": {
+                    "demand": {
+                        "vote": {
+                           "answers_text": "'.$_POST[$voto].'",
+                           "other_text": "",
+                           "url": "",
+                           "ip": "",
+                           "tags": {
+                               "tag": {
+                                   "name": "email",
+                                   "value": "me@polldaddy.com"
+                               }
+                           },
+                           "poll_id": "'.$_POST[$categoria].'",
+                           "widget_id": "0",
+                           "cookie": "0"
+                       },
+                       "id": "vote"
+                    }
+                }
+            }}';
 
-			for ($i = 1; $i <= $categoriasLiberadas; $i++) {
-				$curl_data = '{"pdRequest": {
-				    "partnerGUID": "7381bf0e-95f9-f549-9228-00003062052b",
-				    "userCode": "'.$usercode.'",
-				    "demands": {
-				        "demand": {
-				            "vote": {
-				               "answers_text": "'.$_POST['c'.$i].'",
-				               "other_text": "",
-				               "url": "",
-				               "ip": "",
-				               "tags": {
-				                   "tag": {
-				                       "name": "email",
-				                       "value": "me@polldaddy.com"
-				                   }
-				               },
-				               "poll_id": "'.$categorias[$i].'",
-				               "widget_id": "0",
-				               "cookie": "0"
-				           },
-				           "id": "vote"
-				        }
-				    }
-				}}';
-
-				$ch = curl_init();
-				curl_setopt( $ch, CURLOPT_URL, "https://api.polldaddy.com/" );
-				curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
-				curl_setopt( $ch, CURLOPT_POST, 1 );
-				curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
-				curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
-				$data = curl_exec( $ch );
-				curl_close( $ch );
-			}
+            $ch = curl_init();
+            curl_setopt( $ch, CURLOPT_URL, "https://api.polldaddy.com/" );
+            curl_setopt( $ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json'));
+            curl_setopt( $ch, CURLOPT_POST, 1 );
+            curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1 );
+            curl_setopt( $ch, CURLOPT_POSTFIELDS, $curl_data );
+            $data = curl_exec( $ch );
+            curl_close( $ch );
+//			}
 
 			echo json_encode(array('resp' => 'yep'));
 		}
