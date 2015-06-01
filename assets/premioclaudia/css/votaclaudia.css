@@ -319,7 +319,7 @@ a {
 
 }
 /*TABLET*/
-@media screen and (min-width: 573px) and (max-width: 747px) {
+@media screen and (min-width: 573px) and (max-width: 749px) {
     .index ul li {
         font-size: 183%;
     }
@@ -356,6 +356,7 @@ a {
     .candidato {
         max-width: 600px;
         text-align: left;
+        height: 149px;
     }
 
     .candidatos-wrapper{
@@ -423,7 +424,7 @@ a {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 748px) and (max-width: 1025px) {
+@media screen and (min-width: 750px) and (max-width: 1025px) {
 
     #logo{
         width: 400px;

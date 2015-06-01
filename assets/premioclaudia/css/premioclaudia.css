@@ -212,7 +212,7 @@ a {
     z-index: 1;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     #logo{
         margin: -14px auto;
     }
