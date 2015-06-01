@@ -13,27 +13,37 @@ $(document).ready(function(){
         $('.candidato').removeClass('escolhido');
         $(this).addClass('escolhido');
 
-        $(".loader").show();
         armazenaVoto(categoriaAtual);
 
-        $.ajax({
-            type : 'post',
-            dataType : 'json',
-            url : '/pclaudia/envia',
-            data : {categoria: categoriasCod[categoriaAtual-1], voto: votos[categoriaAtual-1]},
-            success: function(response){
-                console.log("OK");
-                $(".loader").hide();
-            }
-        });
+        setTimeout(function() {
+            $(".loader").fadeIn("slow");
+            $.ajax({
+                type : 'post',
+                dataType : 'json',
+                url : '/pclaudia/envia',
+                data : {categoria: categoriasCod[categoriaAtual-1], voto: votos[categoriaAtual-1]},
+                success: function(response){
+                    console.log("OK");
+                },
+                complete: function() {
+                    if (categoriaAtual < categoriasLiberadas) {
+                        categoriaAtual += 1;
+                        paginador(categoriaAtual);
+                        $(".loader").fadeOut("slow");
+                    } else {
+                        window.location.assign("/pclaudia/obrigado");
+                    }
+                }
+            });
 
-        if (categoriaAtual < categoriasLiberadas) {
-            categoriaAtual += 1;
-            paginador(categoriaAtual);
-        } else {
-            window.location.assign("/pclaudia/obrigado");
-        }
+//            if (categoriaAtual < categoriasLiberadas) {
+//                categoriaAtual += 1;
+//                paginador(categoriaAtual);
+//            } else {
+//                window.location.assign("/pclaudia/obrigado");
+//            }
 
+        }, 300);
     }
 
     function armazenaVoto(categoriaAtual) {
@@ -41,7 +51,7 @@ $(document).ready(function(){
     }
 
     function paginador(categoriaAtual) {
-        $(".categoria").load("pagina?categoria="+categoriaAtual+" .categoria-wrapper", function() {
+        $(".categoria").load("/pclaudia/pagina?categoria="+categoriaAtual+" .categoria-wrapper", function() {
             $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoriaAtual-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
         });
 
@@ -50,14 +60,19 @@ $(document).ready(function(){
 
     }
 
-    paginador(categoriaAtual);
-
     $('.categoria').on('click', ".candidato", escolheCandidato);
+
+    $('.categoria').delegate('.vejaMais', 'click', function(event) {
+        event.stopPropagation();
+    });
 
     $('.catIndex').on('click', function() {
         categoriaAtual = parseInt($(this).text(), 10);
         paginador(categoriaAtual);
     });
+
+    paginador(categoriaAtual);
+
 });
 
 
