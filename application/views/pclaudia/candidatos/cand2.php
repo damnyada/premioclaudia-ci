@@ -7,7 +7,7 @@
             </div>
             <div class="candInfo">
                 <h2>Mariângela Hungria</h2>
-                <p>Pesquisadora desenvolveu técnica que permite que a terra dê mais comida às pessoas</p>
+                <p>Pesquisadora desenvolveu técnica que permite que a terra dê mais comida às pessoas.</p>
                 <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#4" target="_blank">»Veja mais</a>
             </div>
             <div class="coracao"></div>
@@ -19,7 +19,7 @@
             </div>
             <div class="candInfo">
                 <h2>Maria Goretti dos Sales Maciel</h2>
-                <p>Levar conforto e dignidade a pacientes com doenças terminais é o trabalho da médica</p>
+                <p>Levar conforto e dignidade a pacientes com doenças terminais é o trabalho da médica.</p>
                 <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#5" target="_blank">»Veja mais</a>
             </div>
             <div class ="coracao"></div>
@@ -31,7 +31,7 @@
             </div>
             <div class="candInfo">
                 <h2>Maria Isabel Achatz</h2>
-                <p>Geneticista oncológica busca repostas para câncer raro com grande incidência no Brasil</p>
+                <p>Geneticista oncológica busca repostas para câncer raro com grande incidência no Brasil.</p>
                 <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#6" target="_blank">»Veja mais</a>
             </div>
             <div class="coracao"></div>

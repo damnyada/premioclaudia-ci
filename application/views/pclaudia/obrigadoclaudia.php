@@ -47,7 +47,7 @@
                 <main class="content">
                     <div id="intro">
                         <p>Obrigado!</p>
-                        <p>Seu voto foi computado com sucesso</p>
+                        <p>Seu voto foi computado com sucesso.</p>
                     </div>
                     <a href="/pclaudia/vota">
                         <div id="novamenteBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar_novamente', 'label': '', 'interaction': 'true'}">
