@@ -210,7 +210,7 @@ a {
     right: 0;
     position: fixed;
     z-index: 9;
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.8);
     display: none;
 }
 
@@ -222,6 +222,34 @@ a {
     left: 0;
     bottom: 0;
     right: 0;
+}
+
+.orientacao {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: #f6f5f1;
+}
+
+#warning {
+    background: url(../img/orientacao-mobile.png) center center no-repeat;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.on {
+    display: block;
+}
+
+.off {
+    display: none;
 }
 
 .candFoto, .candInfo {

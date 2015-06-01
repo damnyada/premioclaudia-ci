@@ -5,6 +5,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">        
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/premioclaudia.css">
+        <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-5L3XPG"></script>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-5L3XPG');
+        </script>
     </head>
     <body>
         <!-- MENU M -->
@@ -50,7 +57,7 @@
                         <p>Há 20 anos o <span class="bold">Prêmio <span class="capital">Claudia</span></span> inspira, conecta e homenageia mulheres que fazem a diferença.</p>
                         <p>Conheça as finalistas de 2015</p>
                     </div>
-                    <a href="#">
+                    <a href="/premio-claudia/votacao-2015">
                         <div id="iniciarBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar</span></h3>
                         </div>

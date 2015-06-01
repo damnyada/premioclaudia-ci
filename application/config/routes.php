@@ -5,10 +5,10 @@ $route['default_controller'] = 'votecontigo';
 
 
 //Prêmio Claudia 2015
-$route['pclaudia/inicio'] = 'premioclaudia/introClaudia';
-$route['pclaudia/vota'] = 'premioclaudia/votaClaudia';
-$route['pclaudia/obrigado'] = 'premioclaudia/obrigadoClaudia';
-$route['pclaudia/resultado'] = 'premioclaudia/resultadoClaudia';
+$route['premio-claudia'] = 'premioclaudia/introClaudia';
+$route['premio-claudia/votacao-2015'] = 'premioclaudia/votaClaudia';
+$route['premio-claudia/obrigado'] = 'premioclaudia/obrigadoClaudia';
+$route['premio-claudia/resultado'] = 'premioclaudia/resultadoClaudia';
 $route['pclaudia/pagina'] = 'premioclaudia/catDesktop';
 $route['pclaudia/envia'] = 'premioclaudia/envia';
 
