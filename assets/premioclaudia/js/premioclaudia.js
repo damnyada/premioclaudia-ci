@@ -16,7 +16,7 @@ $(document).ready(function(){
         armazenaVoto(categoriaAtual);
 
         setTimeout(function() {
-            $(".loader").fadeIn();
+            $(".loader").fadeIn("slow");
             $.ajax({
                 type : 'post',
                 dataType : 'json',
@@ -24,16 +24,24 @@ $(document).ready(function(){
                 data : {categoria: categoriasCod[categoriaAtual-1], voto: votos[categoriaAtual-1]},
                 success: function(response){
                     console.log("OK");
-                    $(".loader").fadeOut();
+                },
+                complete: function() {
+                    if (categoriaAtual < categoriasLiberadas) {
+                        categoriaAtual += 1;
+                        paginador(categoriaAtual);
+                        $(".loader").fadeOut("slow");
+                    } else {
+                        window.location.assign("/pclaudia/obrigado");
+                    }
                 }
             });
 
-            if (categoriaAtual < categoriasLiberadas) {
-                categoriaAtual += 1;
-                paginador(categoriaAtual);
-            } else {
-                window.location.assign("/pclaudia/obrigado");
-            }
+//            if (categoriaAtual < categoriasLiberadas) {
+//                categoriaAtual += 1;
+//                paginador(categoriaAtual);
+//            } else {
+//                window.location.assign("/pclaudia/obrigado");
+//            }
 
         }, 300);
     }
