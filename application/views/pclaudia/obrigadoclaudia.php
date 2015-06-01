@@ -50,7 +50,7 @@
                         <p>Seu voto foi computado com sucesso</p>
                     </div>
                     <a href="/pclaudia/vota">
-                        <div id="novamenteBtn">
+                        <div id="novamenteBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar_novamente', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar novamente</span></h3>
                         </div>
                     </a>
