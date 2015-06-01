@@ -30,6 +30,8 @@ $(document).ready(function(){
         if (categoriaAtual < categoriasLiberadas) {
             categoriaAtual += 1;
             paginador(categoriaAtual);
+        } else {
+            window.location.assign("/pclaudia/obrigado");
         }
 
     }
