@@ -41,7 +41,7 @@ $(document).ready(function(){
     }
 
     function paginador(categoriaAtual) {
-        $(".categoria").load("pagina?categoria="+categoriaAtual+" .categoria-wrapper", function() {
+        $(".categoria").load("/pclaudia/pagina?categoria="+categoriaAtual+" .categoria-wrapper", function() {
             $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoriaAtual-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
         });
 
