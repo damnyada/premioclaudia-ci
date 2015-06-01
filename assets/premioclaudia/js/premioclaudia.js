@@ -43,6 +43,9 @@ $(document).ready(function(){
             $(".candidatos-wrapper").find(".candidato[data-voto='"+votos[categoriaAtual-1]+"']").addClass("escolhido").children(".coracao").addClass("vermelho");
         });
 
+        $(".catIndex").removeClass("active");
+        $(".index").find(".catIndex:contains('"+categoriaAtual+"')").addClass("active");
+
     }
 
     paginador(categoriaAtual);
@@ -52,9 +55,6 @@ $(document).ready(function(){
     $('.catIndex').on('click', function() {
         categoriaAtual = parseInt($(this).text(), 10);
         paginador(categoriaAtual);
-
-        $(".catIndex").removeClass("active");
-        $(".index").find(".catIndex:contains('"+categoriaAtual+"')").addClass("active");
     });
 });
 
