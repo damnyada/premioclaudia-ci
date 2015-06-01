@@ -54,10 +54,15 @@ $(document).ready(function(){
 
     $('.categoria').on('click', ".candidato", escolheCandidato);
 
+    $('.categoria').delegate('.vejaMais', 'click', function(event) {
+        event.stopPropagation();
+    });
+
     $('.catIndex').on('click', function() {
         categoriaAtual = parseInt($(this).text(), 10);
         paginador(categoriaAtual);
     });
+
 });
 
 
