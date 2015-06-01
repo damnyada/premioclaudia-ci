@@ -203,6 +203,27 @@ a {
     cursor: pointer;
 }
 
+.loader {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 9;
+    background-color: rgba(255,255,255,0.6);
+    display: none;
+}
+
+#loader {
+    background: url(../img/loader.gif) center center no-repeat;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
 .candFoto, .candInfo {
     display: inline-block;
     box-sizing: border-box;

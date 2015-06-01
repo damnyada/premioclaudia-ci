@@ -13,6 +13,7 @@ $(document).ready(function(){
         $('.candidato').removeClass('escolhido');
         $(this).addClass('escolhido');
 
+        $(".loader").show();
         armazenaVoto(categoriaAtual);
 
         $.ajax({
@@ -22,8 +23,14 @@ $(document).ready(function(){
             data : {categoria: categoriasCod[categoriaAtual-1], voto: votos[categoriaAtual-1]},
             success: function(response){
                 console.log("OK");
+                $(".loader").hide();
             }
         });
+
+        if (categoriaAtual < categoriasLiberadas) {
+            categoriaAtual += 1;
+            paginador(categoriaAtual);
+        }
 
     }
 
