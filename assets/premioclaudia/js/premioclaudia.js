@@ -31,7 +31,7 @@ $(document).ready(function(){
                         paginador(categoriaAtual);
                         $(".loader").fadeOut("slow");
                     } else {
-                        window.location.assign("/pclaudia/obrigado");
+                        window.location.assign("/premio-claudia/obrigado");
                     }
                 }
             });
