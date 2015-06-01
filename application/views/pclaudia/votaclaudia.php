@@ -269,6 +269,6 @@
                 </main>
             </div>
         </div>
-        <script src="../assets/premioclaudia/js/premioclaudia.js"></script>
+        <script src="/../assets/premioclaudia/js/premioclaudia.js"></script>
     </body>
 </html>
