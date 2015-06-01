@@ -50,7 +50,7 @@
                         <p>Há 20 anos o <span class="bold">Prêmio <span class="capital">Claudia</span></span> inspira, conecta e homenageia mulheres que fazem a diferença.</p>
                         <p>Conheça as finalistas de 2015</p>
                     </div>
-                    <a href="#">
+                    <a href="/premio-claudia/votacao-2015">
                         <div id="iniciarBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar</span></h3>
                         </div>
