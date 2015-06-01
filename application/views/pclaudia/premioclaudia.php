@@ -67,5 +67,26 @@
                 </footer>
             </div>
         </div>
+
+        <script type="text/javascript">
+            abrConfSite = {
+                "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
+                "abrAdsArea" : "mdemulher/especial",
+                "adsTargets" : "canal=moda;marca=nova;slug=guia-do-sutia;tagespecial=guiadosutia",
+                "adsQuerys" : ""
+            };
+        </script>
+        <script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>
+
+        <script type="text/javascript">
+            abrConfSite = {
+                // "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
+                "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_smartphone.json",
+                "abrAdsArea" : "mdemulher/especial/guiadosutia",
+                "adsTargets" : "canal=moda;marca=nova;slug=guia-do-sutia",
+                "adsQuerys" : ""
+            };
+        </script>
+        <script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>
     </body>
 </html>

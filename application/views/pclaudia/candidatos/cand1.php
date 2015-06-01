@@ -8,7 +8,7 @@
             <div class="candInfo">
                 <h2>Dagmar Garroux</h2>
                 <p>Pedagoga abre portas para que jovens em situação de risco social superem limitações</p>
-                <a class="vejaMais" href="#">»Veja mais</a>
+                <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias" target="_blank">»Veja mais</a>
             </div>
             <div class="coracao"></div>
         </div>
@@ -20,7 +20,7 @@
             <div class="candInfo">
                 <h2>Juliana de Faria</h2>
                 <p>Lutar contra o assédio sexual que mulheres sofrem diariamente é o trabalho da jornalista</p>
-                <a class="vejaMais" href="#">»Veja mais</a>
+                <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#2" target="_blank">»Veja mais</a>
             </div>
             <div class ="coracao"></div>
         </div>
@@ -32,7 +32,7 @@
             <div class="candInfo">
                 <h2>Sula Sevillis</h2>
                 <p>Radialista comanda programa que ajuda a conectar pessoas de áreas remotas da Amazônia</p>
-                <a class="vejaMais" href="#">»Veja mais</a>
+                <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#3" target="_blank">»Veja mais</a>
             </div>
             <div class="coracao"></div>
         </div>
