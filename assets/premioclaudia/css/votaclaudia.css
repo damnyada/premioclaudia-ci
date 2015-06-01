@@ -201,6 +201,7 @@ a {
     box-shadow: 1px 1px 2px #c9c9c9;
     position: relative;
     cursor: pointer;
+    height: 159px;
 }
 
 .candFoto, .candInfo {
@@ -224,6 +225,9 @@ a {
 .candFoto img {
     width: 100%;
     max-width: 90px;
+    position: relative;
+    padding-top: 13%;
+    padding-bottom:10%;
 }
 
 .candInfo h2 {
@@ -240,6 +244,9 @@ a {
     font-family: "grumpyblack24";
     font-size: 0.7em;
     text-transform: lowercase;
+    width: 201px;
+    position: absolute;
+    top: 81%;
 }
 
 .coracao {
@@ -263,6 +270,7 @@ a {
 @media screen and (min-width: 450px) and (max-width: 572px) {
     .candidato{
         max-width: 459px;
+        height: 139px;
     }
     #logo {
         width: 270px;
@@ -279,10 +287,15 @@ a {
     }
     .candInfo{
         width: 72%;
+        padding-top: 4%
     }
     .triangles{
         background-size: 500px;
     }
+    .vejaMais{
+        top:77%;
+    }
+
 }
 /*TABLET*/
 @media screen and (min-width: 573px) and (max-width: 747px) {
@@ -334,8 +347,8 @@ a {
     }
 
     .candInfo {
-        width: 60%;
-        padding-top: 6%;
+        width: 65%;
+        padding-top: 5%;
     }
 
     .vejaMais{
@@ -351,8 +364,10 @@ a {
 
     .candFoto img {
         width: 100%;
-        max-width: 146px;
-        padding: 6px;
+        max-width: 104px;
+        position: relative;
+        padding-left: 13%
+
     }
 
     .candInfo h2 {
@@ -439,10 +454,11 @@ a {
         margin: 22px 20px 116px;
         position:relative;
         top: 81px;
-        min-height: 386px;
+        min-height: 406px;
         width: 24%;
         cursor: pointer;
         display: inline-block;
+        height: 100%;
     }
 
     .candidato p{
@@ -579,7 +595,7 @@ a {
         margin: 60px 20px 116px;
         position:relative;
         top: 81px;
-        height: 301px;
+        height: 328px;
         width: 28%;
         cursor: pointer;
         display: inline-block;
