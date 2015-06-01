@@ -49,7 +49,7 @@
                         <p>Obrigado!</p>
                         <p>Seu voto foi computado com sucesso</p>
                     </div>
-                    <a href="#">
+                    <a href="/pclaudia/vota">
                         <div id="novamenteBtn">
                             <h3><span class="bold capital">Votar novamente</span></h3>
                         </div>

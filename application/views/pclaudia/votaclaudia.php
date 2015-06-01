@@ -236,6 +236,9 @@
 <!--         </section> -->
         <!-- </div> -->
     <!-- fim menu mobile-->
+        <div class="loader">
+            <div id="loader"></div>
+        </div>
         <div class="container">
             <div class="triangles"></div>
             <div class="wrapper">
