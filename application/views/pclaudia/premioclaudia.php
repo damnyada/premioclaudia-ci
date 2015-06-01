@@ -51,7 +51,7 @@
                         <p>Conheça as finalistas de 2015</p>
                     </div>
                     <a href="#">
-                        <div id="iniciarBtn">
+                        <div id="iniciarBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar</span></h3>
                         </div>
                     </a>

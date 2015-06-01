@@ -249,9 +249,9 @@
                     <nav class="index">
                         <ul>
                             <li class="ponto"></li>
-                            <li class="catIndex active">1</li>
+                            <li class="catIndex active" data-ga="{'group': 'default', 'send': 'event', 'category': '8887099', 'action': '1', 'label': 'Trabalho social', 'interaction': 'true'}">1</li>
                             <li class="ponto"></li>
-                            <li class="catIndex">2</li>
+                            <li class="catIndex" data-ga="{'group': 'default', 'send': 'event', 'category': '8887102', 'action': '2', 'label': 'Ciencia', 'interaction': 'true'}">2</li>
                             <li class="ponto"></li>
                             <li class="inactive">3</li>
                             <li class="ponto"></li>
