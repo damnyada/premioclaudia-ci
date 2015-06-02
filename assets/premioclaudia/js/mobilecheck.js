@@ -6,9 +6,9 @@ $(document).ready(function() {
     window.addEventListener("orientationchange", function(){
         setTimeout(function(){
             if(check == true && window.innerWidth > window.innerHeight){
-                $('div#orientacao').removeClass('off').addClass('on');
+                $('.orientacao').removeClass('off').addClass('on');
             }else{
-                $('div#orientacao').removeClass('on').addClass('off');
+                $('.orientacao').removeClass('on').addClass('off');
             }
         }, false);
     });
