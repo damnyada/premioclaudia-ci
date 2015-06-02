@@ -63,6 +63,7 @@
                         <div id="novamenteBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar_novamente', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar novamente</span></h3>
                         </div>
+                        <p id="saibaMais"><a href="http://mdemulher.abril.com.br/especial/premio-claudia">Saiba mais sobre o Prêmio CLAUDIA</a></p>
                     </a>
                 </main>
             </div>

@@ -49,40 +49,35 @@ table {
 
 /*Fim do reset*/
 
-@font-face {
-    font-family: 'grumpyblack24';
-    src: url('../fonts/grumpy-black24-webfont.eot');
-    src: url('../fonts/grumpy-black24-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/grumpy-black24-webfont.woff2') format('woff2'),
-         url('../fonts/grumpy-black24-webfont.woff') format('woff'),
-         url('../fonts/grumpy-black24-webfont.ttf') format('truetype'),
-         url('../fonts/grumpy-black24-webfont.svg#grumpyblack24') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face{
+	font-family:'Arquitecta Bold';
+	src: url('../font/ArquitectaBold.otf'),
+	url('../font/ArquitectaBold.otf'); /* IE */
 }
-
-@font-face {
-    font-family: 'arquitecta_blackblack';
-    src: url('../fonts/arquitectablack-webfont.eot');
-    src: url('../fonts/arquitectablack-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/arquitectablack-webfont.woff2') format('woff2'),
-         url('../fonts/arquitectablack-webfont.woff') format('woff'),
-         url('../fonts/arquitectablack-webfont.ttf') format('truetype'),
-         url('../fonts/arquitectablack-webfont.svg#arquitecta_blackblack') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face{
+	font-family:'Arquitecta Heavy';
+	src: url('../font/ArquitectaHeavy.otf'),
+	url('../font/ArquitectaHeavy.otf'); /* IE */
 }
-
-@font-face {
-    font-family: 'arquitectaregular';
-    src: url('../fonts/arquitecta-webfont.eot');
-    src: url('../fonts/arquitecta-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/arquitecta-webfont.woff2') format('woff2'),
-         url('../fonts/arquitecta-webfont.woff') format('woff'),
-         url('../fonts/arquitecta-webfont.ttf') format('truetype'),
-         url('../fonts/arquitecta-webfont.svg#arquitectaregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+@font-face{
+	font-family:'Arquitecta Light';
+	src: url('../font/ArquitectaLight.otf'),
+	url('../font/arquitectalight.otf'); /* IE */
+}
+@font-face{
+	font-family:'Arquitecta Medium';
+	src: url('../font/ArquitectaMedium.otf'),
+	url('../font/ArquitectaMedium.otf'); /* IE */
+}
+@font-face{
+	font-family:'Grumpy Black';
+	src: url('../font/grumpyblack.otf'),
+	url('../font/grumpyblack.otf'); /* IE */
+}
+@font-face{
+	font-family:'Arquitecta Medium Italic';
+	src: url('../font/ArquitectaMedium-Italic.otf'),
+	url('../font/ArquitectaMedium-Italic.otf'); /* IE */
 }
 
 html {
@@ -104,7 +99,7 @@ body {
 }
 
 .bold {
-    font-family: 'arquitecta_blackblack';
+    font-family: 'Arquitecta Heavy';
     letter-spacing: 1px;
 }
 
@@ -128,7 +123,7 @@ a {
 .container {
     position: relative;
     width: 100%;
-    font-family: 'arquitectaregular';
+    font-family: 'Arquitecta Light';
     font-size: 1.44em;
     letter-spacing: 0.6px;
     line-height: 1.25em;
@@ -210,6 +205,10 @@ a {
     margin: 0 auto;    
     background-color: #f6f5f1;
     z-index: 1;
+}
+
+#saibaMais {
+    font-family: 'Arquitecta Bold';
 }
 
 @media screen and (min-width: 1025px) {
@@ -327,7 +326,7 @@ a {
     div#menu-m div#menu-wrap ul#menu-m li {
         display: block;
         float: left;
-        font-family: "arquitecta_blackblack";
+        font-family: "Arquitecta Heavy";
         font-size: 12px;
         height: 44px;
         line-height: 50px;
