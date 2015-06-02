@@ -20,7 +20,7 @@
 
         <meta property="og:description" content="Há 20 anos o Prêmio CLAUDIA inspira, conecta e homenageia mulheres que fazem a diferença. Vote nas finalistas de 2015!"/>
 
-        <meta property="og:image" content="http://especial.mdemulher.com.bri/assets/premioclaudia/img/destaque.png"/>
+        <meta property="og:image" content="http://especial.mdemulher.com.br/assets/premioclaudia/img/destaque.png"/>
     </head>
     <body>
 
