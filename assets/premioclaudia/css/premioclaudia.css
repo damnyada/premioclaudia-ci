@@ -255,17 +255,16 @@ a {
     }
 
     #iniciarBtn {
-        width: 4.5em;
-        margin: 1.1em auto;
+        font-size: 1.2em;
+        line-height: 2em;
+        width: 4.7em;
+        height: 1.9em;
+        margin: 1em auto;
     }
 
     #resultadoBtn {
         width: 7em;
 
-    }
-    #resultadoBtn:hover{
-         background: #000;
-        color:#fff;
     }
 
     .container{
