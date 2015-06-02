@@ -151,14 +151,6 @@ a {
     text-align: center;
 }
 
-/*
-#logo-wrapper {
-    display: block;
-    margin: 0 auto;
-    width: 18.35em;
-}
-*/
-
 #logo {
     width: 175px;
     background: url("../img/logo-horizontal.svg") no-repeat center;
@@ -263,7 +255,6 @@ a {
 .candFoto {
     padding: 7px;
     margin-top: 15px;
-    height: 100%;
 }
 
 .candInfo {
@@ -298,8 +289,8 @@ a {
     font-size: 0.7em;
     text-transform: lowercase;
     width: 201px;
-    position: relative;
-    top: 14px;
+    position: absolute;
+    top: 81%;
 }
 
 .coracao {
@@ -347,6 +338,9 @@ a {
     }
     .triangles{
         background-size: 500px;
+    }
+    .vejaMais{
+        top:77%;
     }
 
 }
@@ -491,7 +485,6 @@ a {
         float:none;
         position:relative;
         width:79%;
-        height: auto;
     }
 
     .candFoto img{
@@ -633,7 +626,6 @@ a {
         float:none;
         position:relative;
         width:59%;
-        height: auto;
     }
 
     .candFoto img{
