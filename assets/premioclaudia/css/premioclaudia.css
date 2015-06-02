@@ -237,12 +237,16 @@ a {
 
 @media screen and (max-width: 350px) {
 
+    #logo {
+        width: 138px;
+    }
+
     .container {
         line-height: 1.05em;
     }
 
     .content {
-        margin-top: 1em;
+        margin-top: 0.5em;
     }
 
     #iniciarBtn {
