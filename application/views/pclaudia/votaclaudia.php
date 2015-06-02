@@ -15,6 +15,12 @@
                     '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
                     })(window,document,'script','dataLayer','GTM-5L3XPG');
         </script>
+
+        <meta property="og:title" content="Prêmio CLAUDIA 2015 | 20 anos"/>
+
+        <meta property="og:description" content="Há 20 anos o Prêmio CLAUDIA inspira, conecta e homenageia mulheres que fazem a diferença. Vote nas finalistas de 2015?"/>
+
+        <meta property="og:image" content="http://especial.mdemulher.com.bri/assets/premioclaudia/img/Destaque.png"/>
     </head>
     <body>
 
@@ -91,26 +97,5 @@
         </div>
         <script src="/../assets/premioclaudia/js/premioclaudia.js"></script>
         <script src="/../assets/premioclaudia/js/mobilecheck.js"></script>
-
-        <script type="text/javascript">
-            abrConfSite = {
-                "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
-                "abrAdsArea" : "mdemulher/especial",
-                "adsTargets" : "canal=moda;marca=nova;slug=premio-claudia;tagespecial=premioclaudia",
-                "adsQuerys" : ""
-            };
-        </script>
-        <script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>
-
-        <script type="text/javascript">
-            abrConfSite = {
-                // "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
-                "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_smartphone.json",
-                "abrAdsArea" : "mdemulher/especial/premioclaudia",
-                "adsTargets" : "canal=moda;marca=nova;slug=premio-claudia",
-                "adsQuerys" : ""
-            };
-        </script>
-        <script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>
     </body>
 </html>

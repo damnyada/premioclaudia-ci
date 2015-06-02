@@ -291,7 +291,7 @@ a {
     text-transform: lowercase;
     width: 201px;
     position: relative;
-    top: 14px;
+    bottom: -26px;
 }
 
 .coracao {
