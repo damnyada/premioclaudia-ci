@@ -116,6 +116,12 @@ a {
     text-decoration: none;
 }
 
+.block-link {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
 #menu-m {
     display: none;
 }
@@ -236,6 +242,15 @@ a {
         width: 18.35em;
         max-width: initial;
         height: 5.50em;
+    }
+
+
+    .block-link {
+        width: 18.35em;
+    }
+
+    .votar {
+        width: 7em;
     }
 
     .content {
