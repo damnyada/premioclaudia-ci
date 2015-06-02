@@ -151,6 +151,14 @@ a {
     text-align: center;
 }
 
+/*
+#logo-wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 18.35em;
+}
+*/
+
 #logo {
     width: 175px;
     background: url("../img/logo-horizontal.svg") no-repeat center;

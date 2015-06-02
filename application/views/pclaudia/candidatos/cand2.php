@@ -1,7 +1,7 @@
 <div class="categoria-wrapper">
     <h1 class="catNome">Ciência</h1>
     <div class="candidatos-wrapper" data-categoria="8887102">
-        <div class="candidato" data-voto="40441575">
+        <div class="candidato" data-voto="40441575" data-ga="{'group': 'default', 'send': 'event', 'category': '8887102', 'action': 'Ciencia', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/ciencias-mariangela-hungria.png" alt=""></img>
             </div>
@@ -13,7 +13,7 @@
             <div class="coracao"></div>
         </div>
 
-        <div class="candidato" data-voto="40441576">
+        <div class="candidato" data-voto="40441576" data-ga="{'group': 'default', 'send': 'event', 'category': '8887102', 'action': 'Ciencia', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/ciencias-maria-goretti-dos-sales-maciel.png" alt=""></img>
             </div>
@@ -25,7 +25,7 @@
             <div class ="coracao"></div>
         </div>
 
-        <div class="candidato" data-voto="40441577">
+        <div class="candidato" data-voto="40441577" data-ga="{'group': 'default', 'send': 'event', 'category': '8887102', 'action': 'Ciencia', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/ciencias-maria-isabel-achatz.png" alt=""></img>
             </div>

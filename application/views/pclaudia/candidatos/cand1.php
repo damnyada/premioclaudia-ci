@@ -1,7 +1,7 @@
 <div class="categoria-wrapper">
     <h1 class="catNome">Trabalho social</h1>
     <div class="candidatos-wrapper" data-categoria="8887099">
-        <div class="candidato" data-voto="40441567">
+        <div class="candidato" data-voto="40441567" data-ga="{'group': 'default', 'send': 'event', 'category': '8887099', 'action': 'Trabalho social', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/trabalho-social-dagmar-garroux.png" alt=""></img>
             </div>
@@ -13,7 +13,7 @@
             <div class="coracao"></div>
         </div>
 
-        <div class="candidato" data-voto="40441568">
+        <div class="candidato" data-voto="40441568" data-ga="{'group': 'default', 'send': 'event', 'category': '8887099', 'action': 'Trabalho social', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/trabalho-social-juliana-de-faria.png" alt=""></img>
             </div>
@@ -25,7 +25,7 @@
             <div class ="coracao"></div>
         </div>
 
-        <div class="candidato" data-voto="40441569">
+        <div class="candidato" data-voto="40441569" data-ga="{'group': 'default', 'send': 'event', 'category': '8887099', 'action': 'Trabalho social', 'label': '', 'interaction': 'true'}">
             <div class="candFoto">
                 <img src="/assets/premioclaudia/img/candidatos/trabalho-social-sula-sevillis.png" alt=""></img>
             </div>

@@ -49,17 +49,15 @@
             <div class="triangles"></div>
 
             <div class="wrapper">
-                <header>
-                    <a href="/premio-claudia/">
-                        <div id="logo"></div>
-                    </a>
-                </header>
+                <a class="block-link" href="/premio-claudia/">
+                    <div id="logo"></div>
+                </a>
                 <main class="content">
                     <div id="intro">
                         <p>Há 20 anos o <span class="bold">Prêmio <span class="capital">Claudia</span></span> inspira, conecta e homenageia mulheres que fazem a diferença.</p>
                         <p>Conheça as finalistas de 2015</p>
                     </div>
-                    <a href="/premio-claudia/votacao-2015">
+                    <a class="block-link votar" href="/premio-claudia/votacao-2015">
                         <div id="iniciarBtn" data-ga="{'group': 'default', 'send': 'event', 'category': 'votar', 'action': 'botao_votar', 'label': '', 'interaction': 'true'}">
                             <h3><span class="bold capital">Votar</span></h3>
                         </div>

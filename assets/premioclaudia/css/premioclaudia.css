@@ -116,6 +116,12 @@ a {
     text-decoration: none;
 }
 
+.block-link {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+}
+
 #menu-m {
     display: none;
 }
@@ -238,6 +244,15 @@ a {
         height: 5.50em;
     }
 
+
+    .block-link {
+        width: 18.35em;
+    }
+
+    .votar {
+        width: 7em;
+    }
+
     .content {
         margin-top: 1em;
     }
@@ -273,17 +288,16 @@ a {
     }
 
     #iniciarBtn {
-        width: 4.5em;
-        margin: 1.1em auto;
+        font-size: 1.2em;
+        line-height: 2em;
+        width: 4.7em;
+        height: 1.9em;
+        margin: 1em auto;
     }
 
     #resultadoBtn {
         width: 7em;
 
-    }
-    #resultadoBtn:hover{
-         background: #000;
-        color:#fff;
     }
 
     .container{
