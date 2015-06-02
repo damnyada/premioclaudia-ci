@@ -140,9 +140,9 @@ a {
     top: 0px;
     position: absolute;
     width: 100%;
-    height: 450px;
-    background: url(../img/triangulos.svg) repeat-x fixed top;
-    background-size: auto 235px;
+    height: 500px;
+    background: url(../img/triangulos.svg) no-repeat top;
+    background-size: auto 178px;
     z-index: -1;
 }
 
@@ -284,12 +284,13 @@ a {
     }
 
     #novamenteBtn{
-        width: 11.5em;
+        width: 11em;
+        line-height: 2.3em;
     }
 
     #iniciarBtn {
         font-size: 1.2em;
-        line-height: 2em;
+        line-height: 2.05em;
         width: 4.7em;
         height: 1.9em;
         margin: 1em auto;
