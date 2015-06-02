@@ -73,7 +73,7 @@
             abrConfSite = {
                 "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
                 "abrAdsArea" : "mdemulher/especial",
-                "adsTargets" : "canal=moda;marca=nova;slug=guia-do-sutia;tagespecial=guiadosutia",
+                "adsTargets" : "canal=moda;marca=nova;slug=premio-claudia;tagespecial=premioclaudia",
                 "adsQuerys" : ""
             };
         </script>
@@ -83,8 +83,8 @@
             abrConfSite = {
                 // "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json",
                 "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_smartphone.json",
-                "abrAdsArea" : "mdemulher/especial/guiadosutia",
-                "adsTargets" : "canal=moda;marca=nova;slug=guia-do-sutia",
+                "abrAdsArea" : "mdemulher/especial/premioclaudia",
+                "adsTargets" : "canal=moda;marca=nova;slug=premio-claudia",
                 "adsQuerys" : ""
             };
         </script>
