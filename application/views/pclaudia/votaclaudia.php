@@ -4,6 +4,7 @@
         <title>Prêmio Claudia - 20 Anos</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="icon" href="http://mdemulher.abril.com.br/sites/mdemulher/files/favicon-48x48.png" type="image/png">
         <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/animate.css">
         <link rel="stylesheet" type="text/css" href="/../assets/premioclaudia/css/votaclaudia.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
