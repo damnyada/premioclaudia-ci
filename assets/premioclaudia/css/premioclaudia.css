@@ -235,6 +235,26 @@ a {
     font-family: 'Arquitecta Bold';
 }
 
+@media screen and (max-width: 350px) {
+
+    #logo {
+        width: 138px;
+    }
+
+    .container {
+        line-height: 1.05em;
+    }
+
+    .content {
+        margin-top: 0em;
+    }
+
+    #iniciarBtn {
+        margin: 0.9em auto;
+    }
+
+}
+
 @media screen and (min-width: 1025px) {
     #logo{
         background: url('../img/logo-horizontal.svg') no-repeat center / 100% auto;
