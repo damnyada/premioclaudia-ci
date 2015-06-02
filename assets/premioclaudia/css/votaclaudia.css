@@ -254,6 +254,7 @@ a {
 
 .candFoto {
     padding: 7px;
+    margin-top: 15px;
 }
 
 .candInfo {
@@ -328,6 +329,9 @@ a {
         background-size: 3px;
         padding: 8px 5px;
     }
+    .candFoto {
+        margin-top: 0px;
+    }
     .candInfo{
         width: 72%;
         padding-top: 4%
@@ -388,6 +392,10 @@ a {
         background-size: 5px 5px;
         width: 41px;
         margin-top:13px;
+    }
+
+    .candFoto {
+        margin-top: 0px;
     }
 
     .candInfo {
