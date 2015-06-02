@@ -70,7 +70,7 @@
                             <h2>Apoio</h2>
                         </div>
                     </div>
-                    <div id="sponsor"></div>
+                    <div id="abrAD_button1"></div>
                 </footer>
             </div>
         </div>
