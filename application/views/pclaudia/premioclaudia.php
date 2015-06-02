@@ -50,7 +50,9 @@
 
             <div class="wrapper">
                 <header>
-                    <div id="logo"></div>
+                    <a href="/premio-claudia/">
+                        <div id="logo"></div>
+                    </a>
                 </header>
                 <main class="content">
                     <div id="intro">
