@@ -84,10 +84,10 @@ html {
     height: 100%!important;
     min-height: 100%!important;
     background-color: #f6f5f1!important;
-    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eceade 1%, #f6f5f1 40%)!important; /* Standard syntax */
+    background: -webkit-linear-gradient(#eceade 1%, #f6f5f1 40%) fixed!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eceade 1%, #f6f5f1 40%)fixed!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eceade 1%, #f6f5f1 40%)fixed!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eceade 1%, #f6f5f1 40%)fixed!important; /* Standard syntax */
 }
 
 body {
@@ -231,7 +231,15 @@ a {
 
 @media screen and (min-width: 1025px) {
     #logo{
-        margin: -14px auto;
+        background: url('../img/logo-horizontal.svg') no-repeat center / 100% auto;
+        padding-top: 65px;
+        width: 18.35em;
+        max-width: initial;
+        height: 5.50em;
+    }
+
+    .content {
+        margin-top: 1em;
     }
 
     #apoio #title{
@@ -279,6 +287,7 @@ a {
     }
 
     .container{
+        font-size: 1.82em;
         margin: auto;
         top: 150px;
         letter-spacing: 1.6px;       
