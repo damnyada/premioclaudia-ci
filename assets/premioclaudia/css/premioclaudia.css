@@ -284,7 +284,8 @@ a {
     }
 
     #novamenteBtn{
-        width: 11.5em;
+        width: 11em;
+        line-height: 2.3em;
     }
 
     #iniciarBtn {
