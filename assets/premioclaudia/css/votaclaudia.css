@@ -188,14 +188,15 @@ a {
 
 .candidato {
     width: 100%;
-    max-width: 320px;
+    max-width: 380px;
+    display: table;
     margin: 20px auto;
     margin-bottom: 30px;
     background-color: white;
     box-shadow: 1px 1px 2px #c9c9c9;
     position: relative;
     cursor: pointer;
-    height: 159px;
+    text-align: left;
 }
 
 .loader {
@@ -248,22 +249,18 @@ a {
 }
 
 .candFoto, .candInfo {
-    display: inline-block;
+    display: table-cell;
     box-sizing: border-box;
+    vertical-align: middle;
 }
 
 .candFoto {
-    padding: 7px;
-    margin-top: 15px;
-    height: 100%;
+    padding-left: 3%;
+    width: 27%;
 }
 
 .candInfo {
-    width: 60%;
-    vertical-align: top;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-right: 7px;
+    padding: 3%;
     text-align: left;
 }
 
@@ -283,15 +280,13 @@ a {
 
 .candInfo p {
     font-size: 1em;
+    padding: 3% 0;
 }
 
 .vejaMais {
     font-family: "Grumpy Black";
     font-size: 0.7em;
     text-transform: lowercase;
-    width: 201px;
-    position: relative;
-    bottom: -26px;
 }
 
 .coracao {
@@ -300,7 +295,7 @@ a {
     background: url('../img/coracao-preto.svg') no-repeat center;
     background-size: contain;
     position: absolute;
-    top: 81%;
+    top: 86%;
     right: 13px;
 }
 
@@ -347,7 +342,7 @@ a {
 
 }
 /*TABLET*/
-@media screen and (min-width: 573px) and (max-width: 749px) {
+@media screen and (min-width: 573px) and (max-width: 799px) {
     .index ul li {
         font-size: 183%;
     }
@@ -381,72 +376,25 @@ a {
         padding-top: 65px;
     }
 
-    .candidato {
-        max-width: 600px;
-        text-align: left;
-        height: 149px;
-    }
-
     .candidatos-wrapper{
         padding:6%;
     }
-    .ponto{
-        background-size: 5px 5px;
-        width: 41px;
-        margin-top:13px;
-    }
 
+    .candidato{
+        max-width: 600px;
+        height: 139px;
+    }
     .candFoto {
         margin-top: 0px;
     }
 
-    .candInfo {
-        width: 65%;
-        padding-top: 5%;
-    }
-
-    .vejaMais{
-        width: 201px;
-        height: 21px;
-        position: absolute;
-        top: 81%;
-        font-size: 1em;
-        letter-spacing: 1.1px;
-        margin-left: 7px;
-    }
-
-
     .candFoto img {
-        width: 100%;
-        max-width: 104px;
-        position: relative;
-        padding-left: 13%
-
+        max-width: 130px;
     }
 
-    .candInfo h2 {
-        font-family: "Grumpy Black";
-        font-size: 0.95em;
-        color: #c2081f;
-    }
-
-    .candInfo p {
-        font-size: 1em;
-    }
-
-    .vejaMais {
-        font-family: "Grumpy Black";
-        font-size: 0.7em;
-        text-transform: lowercase;
-    }
-
-    .coracao {
-        width: 38px;
-        height: 38px;
-        background-size: contain;
-        position: absolute;
-        top: 89%;
-        right: 13px;
+    .candInfo{
+        width: 72%;
+        padding-top: 4%
     }
 
     #menu-mdm {
@@ -456,7 +404,7 @@ a {
 }
 
 /*DESKTOP*/
-@media screen and (min-width: 750px) and (max-width: 1025px) {
+@media screen and (min-width: 800px) and (max-width: 1025px) {
 
     #logo{
         width: 400px;
@@ -482,7 +430,13 @@ a {
         margin-top:14px;
     }
 
+    .candFoto, .candInfo {
+        display: inline-block;
+        vertical-align: top;
+    }
+
     .candFoto {
+        padding-left: initial;
         margin: -39% auto auto;
         float:none;
         position:relative;
@@ -495,8 +449,9 @@ a {
     }
 
     .candInfo{
-        margin: -3% 4%;
+        margin: -3% auto;
         width: 100%;
+        padding: 4%;
     }
 
     .candInfo h2{
@@ -514,6 +469,7 @@ a {
         cursor: pointer;
         display: inline-block;
         height: 100%;
+        text-align: center;
     }
 
     .candidato p{
@@ -533,8 +489,8 @@ a {
     }
 
     .coracao{
-        background-size: 76%
-        top: 84%;
+        background-size: 76%;
+        top: 83%;
         width: 28%;
         height: 33%;
     }
@@ -624,6 +580,11 @@ a {
         margin:0 24px;
     }
 
+    .candInfo, .candFoto {
+        display: inline-block;
+        vertical-align: top;
+    }
+
     .candFoto{
         margin:-32% auto auto;
         float:none;
@@ -637,14 +598,14 @@ a {
     }
 
     .candInfo{
-        margin: -7% 4%;
+        margin: -7% auto;
         width: 100%;
     }
 
     .candInfo h2{
         font-size:1.35em;
         padding: 10px;
-
+        padding-top: 20px;
     }
 
     .candidato{
@@ -655,6 +616,7 @@ a {
         width: 28%;
         cursor: pointer;
         display: inline-block;
+        text-align: center;
     }
 
     .candidato p{

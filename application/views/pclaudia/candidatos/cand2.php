@@ -18,7 +18,7 @@
                 <img src="/assets/premioclaudia/img/candidatos/ciencias-maria-goretti-dos-sales-maciel.png" alt=""></img>
             </div>
             <div class="candInfo">
-                <h2>Maria Goretti dos Sales Maciel</h2>
+                <h2>Maria Goretti S. Maciel</h2>
                 <p>Levar conforto e dignidade a pacientes com doenças terminais é o trabalho da médica.</p>
                 <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#5" target="_blank">»Veja mais</a>
             </div>
