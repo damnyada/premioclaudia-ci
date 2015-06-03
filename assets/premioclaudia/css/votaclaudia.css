@@ -290,12 +290,12 @@ a {
 }
 
 .coracao {
-    width: 38px;
-    height: 38px;
+    width: 48px;
+    height: 48px;
     background: url('../img/coracao-preto.svg') no-repeat center;
     background-size: contain;
     position: absolute;
-    top: 86%;
+    top: 75%;
     right: 13px;
 }
 
@@ -397,6 +397,10 @@ a {
         padding-top: 4%
     }
 
+    .coracao {
+        top:83%;
+    }
+
     #menu-mdm {
         display: none;
     }
@@ -490,9 +494,9 @@ a {
 
     .coracao{
         background-size: 76%;
-        top: 83%;
-        width: 28%;
-        height: 33%;
+        top: 90%;
+        width: 68px;
+        height: 68px;
     }
 
     .triangles {
@@ -626,9 +630,9 @@ a {
     }
 
     .coracao{
-        width: 29%;
-        height: 26%;
-        top:84%;
+        width: 28%;
+        height: 22%;
+        top:87%;
     }
     .vejaMais a{
         font-size: 1em;
