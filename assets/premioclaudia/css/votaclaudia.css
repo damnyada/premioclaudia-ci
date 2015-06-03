@@ -591,6 +591,7 @@ a {
         position:relative;
         width:59%;
         height: auto;
+        padding-left: 0;
     }
 
     .candFoto img{
