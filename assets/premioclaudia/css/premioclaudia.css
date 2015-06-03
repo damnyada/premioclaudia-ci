@@ -233,6 +233,11 @@ a {
 
 #saibaMais {
     font-family: 'Arquitecta Bold';
+    text-decoration: underline;
+}
+
+#abrAD_leaderboard1 {
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 350px) {
