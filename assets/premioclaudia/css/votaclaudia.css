@@ -397,6 +397,14 @@ a {
         padding-top: 4%
     }
 
+    .candInfo h2 {
+        font-size: 1.2em;
+    }
+
+    .candInfo p {
+        font-size: 1.2em;
+    }
+
     .coracao {
         top:83%;
     }
@@ -465,6 +473,7 @@ a {
     }
 
     .candidato{
+        min-width: 211px;
         margin: 22px 20px 116px;
         position:relative;
         top: 81px;
@@ -622,6 +631,7 @@ a {
         cursor: pointer;
         display: inline-block;
         text-align: center;
+        padding-bottom: 20px;
     }
 
     .candidato p{
