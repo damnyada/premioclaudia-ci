@@ -312,6 +312,10 @@ a {
     display: none;
 }
 
+#abrAD_leaderboard1 {
+    margin: 0 auto;
+}
+
 @media screen and (min-width: 450px) and (max-width: 572px) {
     .candidato{
         max-width: 459px;

@@ -3,7 +3,8 @@
     <head>
         <title>Prêmio Claudia - 20 Anos</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">             <link rel="icon" href="http://mdemulher.abril.com.br/sites/mdemulher/files/favicon-48x48.png" type="image/png">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="icon" href="http://mdemulher.abril.com.br/sites/mdemulher/files/favicon-48x48.png" type="image/png">
         <link rel="stylesheet" type="text/css" href="../assets/premioclaudia/css/premioclaudia.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script async="" src="//www.googletagmanager.com/gtm.js?id=GTM-5L3XPG"></script>
