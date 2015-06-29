@@ -57,7 +57,7 @@
             <div class="triangles"></div>
 
             <div class="wrapper">
-                <a class="block-link" href="/premio-claudia/">
+                <a class="block-link" href="http://mdemulher.abril.com.br/especial/premio-claudia">
                     <div id="logo"></div>
                 </a>
                 <main class="content">

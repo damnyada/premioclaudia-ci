@@ -31,7 +31,7 @@
             </div>
             <div class="candInfo">
                 <h2>Maria Isabel Achatz</h2>
-                <p>Geneticista oncológica busca repostas para câncer raro com grande incidência no Brasil.</p>
+                <p>Geneticista oncológica busca respostas para câncer com grande incidência no Brasil</p>
                 <a class="vejaMais" href="http://mdemulher.abril.com.br/estilo-de-vida/claudia/premio-claudia-2015-conheca-as-candidatas-de-todas-as-categorias#6" target="_blank">»Veja mais</a>
             </div>
             <div class="coracao"></div>

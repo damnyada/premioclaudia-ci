@@ -4,9 +4,9 @@ var check = false;
 
 
 if(check) {
-	json_abrAd = '<script type="text/javascript">abrConfSite = {// "abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json","abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_smartphone.json","abrAdsArea" : "mdemulher/especial/premioclaudia","adsTargets" : "canal=moda;marca=nova;slug=premio-claudia","adsQuerys" : ""};</script><script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>';    	
+	json_abrAd = '<script type="text/javascript">abrConfSite = {"abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json","abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_smartphone.json","abrAdsArea" : "mdemulher/especial/premioclaudia","adsTargets" : "canal=;marca=claudia;slug=premio-claudia","adsQuerys" : ""};</script><script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>';    	
 } else {
-	json_abrAd = '<script type="text/javascript">abrConfSite = {"abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json","abrAdsArea" : "mdemulher/especial","adsTargets" : "canal=moda;marca=nova;slug=premio-claudia;tagespecial=premioclaudia","adsQuerys" : ""};</script><script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>';
+	json_abrAd = '<script type="text/javascript">abrConfSite = {"abrAdMap" : "http://mdemulher.abril.com.br/libc/ads/ads_mdemulher_v2.json","abrAdsArea" : "mdemulher/especial","adsTargets" : "canal=;marca=claudia;slug=premio-claudia;tagespecial=especial-premio-claudia","adsQuerys" : ""};</script><script type="text/javascript" src="http://mdemulher.abril.com.br/libc/ads/abrad.min.js"></script>';
 }
 
 document.write(json_abrAd);
